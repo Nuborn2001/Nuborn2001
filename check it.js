@@ -33,7 +33,7 @@ sts_ai("i14",[,"Kendrick Johnson's body was found in a rolled up wrestling mat i
 
 
 
-sts_ai("i15",[,"The Murder of Fred Hampton","https://www.youtube.com/watch?v=gyMbFBebUE4",target="top","https://i.ytimg.com/vi/gyMbFBebUE4/mqdefault.jpg"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
+sts_ai("i15",[,"The Sandra Bland Case","https://youtu.be/OJ9xsxjJ2eM",target="top","https://i.ytimg.com/vi/Lf6bmVHBvKc/hqdefault.jpg?custom=true&w=196&h=110&stc=true&jpg444=true&jpgq=90&sp=68&sigh=O5R9bku2VyQPTpy6feeAvjQ3Dz0"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
 
 
 
