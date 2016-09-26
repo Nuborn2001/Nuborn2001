@@ -1,5 +1,5 @@
 /*=====================================
-RESETs
+RESET
 =======================================*/
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
@@ -36,16 +36,16 @@ a:hover{text-decoration:none;}
 #header a.about.current:hover{text-decoration:underline;}
 #header .form{position:absolute;right:25px;bottom:10px;}
 #header input{width:206px; padding-left:10px; padding-right:10px; height:19px; background:url(img/searchinput.png) no-repeat; border:none; vertical-align:top; font-size:11px; color:#999; padding-top:6px;}
-#header input.bt{border:none; background:url(http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/btns.png) no-repeat; width:102px; height:25px; cursor:pointer; display:inline-block; margin-left:10px;}
+#header input.bt{border:none; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/btns.png) no-repeat; width:102px; height:25px; cursor:pointer; display:inline-block; margin-left:10px;}
 
 /*==NAVIGATION CSS==*/
-#menu-container{height:39px; width:1080px; font-size:12px; background:url(http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/nav-bg.png) repeat-x; display:block;}
+#menu-container{height:39px; width:1080px; font-size:12px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x; display:block;}
 /*---NAV---*/
-ul#nav {height:39px; width:1008px; padding-left:72px; float:left; z-index:9999; position:absolute; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/navdivider.png) no-repeat 69px top;}
-ul#nav li {float:left; position:relative; padding-right:3px; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/navdivider.png) no-repeat top right;}
-ul#nav li a {text-align:center; color:#FFF; text-decoration:none; line-height:39px; display:block; height:28px; line-height:39px; font-size:15px; /*added for ie6*/float:left; text-transform:capitalize; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/nav-bg.png) repeat-x;}
+ul#nav {height:39px; width:1008px; padding-left:72px; float:left; z-index:9999; position:absolute; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/navdivider.png) no-repeat 69px top;}
+ul#nav li {float:left; position:relative; padding-right:3px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/navdivider.png) no-repeat top right;}
+ul#nav li a {text-align:center; color:#FFF; text-decoration:none; line-height:39px; display:block; height:28px; line-height:39px; font-size:15px; /*added for ie6*/float:left; text-transform:capitalize; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x;}
 ul#nav li a img{ display:inline-block; width:8px; vertical-align:middle; padding-left:5px;}
-ul#nav li ul {position:absolute; top:39px; left:0px; z-index:500; margin:0; width:150px; padding:0; background: url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/subnav-bg.png) repeat; display:none;}
+ul#nav li ul {position:absolute; top:39px; left:0px; z-index:500; margin:0; width:150px; padding:0; background: url(https://nuborn2001.github.io/flix/next%20gen%20images/subnav-bg.png) repeat; display:none;}
 ul#nav li ul.genres{width:660px;z-index:3;}
 ul#nav li:hover ul {display:block;}
 ul#nav li ul li {float:none; padding:0; background-image:none; border:none;}
@@ -53,7 +53,7 @@ ul#nav li ul li a {text-align:center; line-height:20px !important; min-height:20
 /*---TOP LI---*/
 ul#nav li a{ width:auto; padding:12px 28px 0;}
 /*---TOP LI A:hover & TOP LI:hover A & TOP LI A.current---*/
-ul#nav li:hover a, ul#nav li a.current, ul#nav li a.ie6hover{background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/nav-bg.png) repeat-x left -41px; color:#FFF;}
+ul#nav li:hover a, ul#nav li a.current, ul#nav li a.ie6hover{background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x left -41px; color:#FFF;}
 /*---UL LI:hover UL LI A---*/
 ul#nav li:hover ul li a{background-image:none; padding-bottom:2px; color:#FFF;}
 /*---UL LI UL LI A:hover---*/
@@ -82,7 +82,7 @@ ul#nav li ul.genres table tr td a.current{color:#CA3338;}
 .footer ul li a.current{color:#F00;} 
 /* .footer .ad-box {margin:0 0 20px 0; width:728px; height:90px; overflow:hidden;} */
 .footer p{color:#666;}
-#footer-shadow{display:block; height:10px; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/shadowbg.png) no-repeat center bottom; margin-bottom:10px; clear:both;}
+#footer-shadow{display:block; height:10px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/shadowbg.png) no-repeat center bottom; margin-bottom:10px; clear:both;}
 
 /*=====================================
 HOMEPAGE
@@ -92,8 +92,8 @@ HOMEPAGE
 #slider-box #slider{width:900px; margin:0 auto;}
 #slider-box #slider a {width:890px;height:345px;}
 #slider-box a.next, #slider-box a.prev{display:block;  width:28px; height:48px; text-indent:-100px; overflow:hidden; cursor:pointer; margin-top:147px;}
-#slider-box a.next{float:right; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -160px top; margin-right:25px;}
-#slider-box a.prev{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -131px top; margin-left:25px;}
+#slider-box a.next{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -160px top; margin-right:25px;}
+#slider-box a.prev{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -131px top; margin-left:25px;}
 .pager{height:28px; text-align:center; display:block; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/pager-bg.png) repeat-x; *padding-left:40px;}
 .pager a {background: url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/pageritem.png) no-repeat center; width:20px; height:28px; line-height:28px; text-align:center; text-decoration:none; margin:0 0 0 3px; display:inline-block; color:#FFF; font-size:11px; font-weight:bold; overflow:hidden; text-indent:-40px;}
 .pager a.activeSlide {background: url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/pageritem-current.png) no-repeat left 4px;}
