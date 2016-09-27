@@ -1,0 +1,224 @@
+
+
+<!doctype html>
+<html>
+<head>
+    
+    <title>Youtube like Javascript playlist : Flowplayer</title>
+
+    <link rel="shortcut icon" href="http://flash.flowplayer.org/favicon.ico">
+    <!-- standalone page styling. can be removed -->
+    <style>
+        body{
+            width:982px;
+            margin:50px auto;
+            font-family:sans-serif;
+        }
+        a:active {
+            outline:none;
+        }
+        :focus { -moz-outline-style:none; }
+
+        .palert {
+            padding: 12px;
+            color: black;
+            background-color: #ededed;
+            box-shadow: none;
+        }
+    </style>
+
+    <style type="text/css" media="screen">
+/* container has a background image */
+
+a.player {
+    display:block;
+    width:500px;
+    height:340px;
+    text-align:center;
+    color:#fff;
+    text-decoration:none;
+    cursor:pointer;
+    background:#000 url(https://dl.dropbox.com/u/12447336/tha%20nu/shadowbox-3.0.3/flowplayer/Candy%20Land/h500.png) repeat-x 0 0;
+    background:-moz-linear-gradient(top,
+                                    rgba(55, 102, 152, 0.9),
+                                    rgba(6, 6, 6, 0.9));
+    -moz-box-shadow:0 0 40px rgba(100, 118, 173, 0.5);
+}
+
+a.player:hover {
+    background:-moz-linear-gradient(center top,
+                                    rgba(73, 122, 173, 0.898),
+                                    rgba(6, 6, 6, 0.898));
+}
+
+/* splash image */
+a.player img {
+    margin-top:125px;
+    border:0;
+}
+#player {
+    float:left;
+    height:278px;
+    width:385px;
+    text-align: center;
+}
+
+a.player.plain img {
+    margin-top: 113px;
+}
+
+/* playlist style */
+#playlist {
+    width:312px;
+    height:260px;
+    overflow-y:auto;
+    overflow-x:hidden;
+    border:1px solid #ccc;
+    padding:4px 10px 12px 10px;
+    background-color:#efefef;
+    margin-top:20px;
+    float:left;
+}
+
+/* playlist entry */
+#playlist a {
+    display:block;
+    width:280px;
+    height:90px;
+    padding:7px;
+    background-color:#fff;
+    border:1px solid #ccc;
+    font:11px "bitstream vera sans", "lucida grande",verdana;
+    text-decoration:none;
+    margin-top:7px;
+    color:#666;
+}
+
+/* different states of a playlist entry */
+#playlist a:hover {
+    background-color:#ffc;
+}
+
+#playlist a.progress {
+    background-color:#efefef;
+}
+
+#playlist a.playing {
+    border:1px solid #666;
+    background-color:#ffc;
+}
+
+#playlist a.paused {
+    border:1px solid #666;
+    background-color:#ffc;
+}
+
+/* elements inside playlist entry */
+#playlist a img {
+    border:0;
+    float:left;
+    margin-right:10px;
+}
+
+#playlist a strong {
+    color:blue;
+    padding-bottom:5px;
+}
+
+#playlist a em {
+    border:0;
+    float:left;
+    margin-right:10px;
+    background:url(https://dl.dropbox.com/u/12447336/tha%20nu/shadowbox-3.0.3/flowplayer/Candy%20Land/clock.gif) no-repeat 0 50%;
+    padding-left:20px;
+    color:#333;
+    font-style:normal;
+    margin-top:10px;
+}
+
+
+#playlist{
+    margin-top: 0;
+}
+</style>
+
+    <script src="https://dl.dropbox.com/u/12447336/tha%20nu/shadowbox-3.0.3/flowplayer/Candy%20Land/1.7%20jquery.js" type="text/javascript" charset="utf-8"></script>
+
+    <!-- flowplayer javascript component -->
+    <script src="https://dl.dropbox.com/u/12447336/tha%20nu/shadowbox-3.0.3/flowplayer/flowplayer-3.2.11.min.js"></script>
+
+    <script src="https://dl.dropbox.com/u/12447336/tha%20nu/shadowbox-3.0.3/flowplayer/flowplayer.playlist-3.2.10.min.js" type="text/javascript" charset="utf-8"></script>
+	<link rel="stylesheet" type="text/css" href="http://dl.dropbox.com/u/12447336/tha%20nu/ddimgtooltip.css" />
+<script type="text/javascript" src="http://dl.dropbox.com/u/12447336/tha%20nu/tt.js"></script>
+</head>
+
+<body>
+    <!-- player container -->
+<a id="player" class="player">
+    <img class="button" src="http://flash.flowplayer.org/media/img/player/btn/play_text_large.png" />
+</a>
+
+<!-- the playlist. simple HTML controlled with CSS -->
+<div id="playlist">
+
+  <a href="http://f31.nowvideo.eu/dl/75b67dd9290777da6251019ec07573fc/50e9fa5e/ffed6320f2d8e3dc86d94a63d5d2c7161b.flv">
+       <img alt="" src="https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/2865.jpg" rel="imgtip[278]" class="avatar avatar-70 photo" height="70" width="70"/>	
+        <strong>huge_squirt</strong><br /><br />And a subtitle.
+        <em>0.22</em>
+    </a>
+
+    <a href="http://dl.dropbox.com/u/98631030/1024964_pretty_girl_squirt.flv">
+        <img alt="" src="http://dl.dropbox.com/u/12447336/tha%20nu/images/1024964.jpg" rel="imgtip[278]" class="avatar avatar-70 photo" height="70" width="70"/>	
+        <strong>Here is an item in the playlist</strong><br /><br />And a subtitle.
+        <em>0.22</em>
+    </a>
+
+
+    <a href="http://dl.dropbox.com/u/98631030/1398549_curvy_beauty_orgasm.flv">
+        <img alt="" src="http://dl.dropbox.com/u/12447336/tha%20nu/images/1398549.jpg" rel="imgtip[278]" class="avatar avatar-70 photo" height="70" width="70"/>	
+        <strong>Here is an item in the playlist</strong><br /><br />And a subtitle.
+        <em>0.22</em>
+    </a>
+
+    <a href="KimAronson-TwentySeconds73213.flv">
+        <img src="/media/img/demos/thumb4.jpg" />
+        <strong>Here is an item in the playlist</strong><br /><br />And a subtitle.
+        <em>0.22</em>
+    </a>
+
+    <a href="KimAronson-TwentySeconds1318.flv">
+        <img src="/media/img/demos/thumb5.jpg" />
+        <strong>Here is an item in the playlist</strong><br /><br />And a subtitle.
+        <em>0.22</em>
+    </a>
+
+    <a href="KimAronson-TwentySeconds71844.flv">
+        <img src="/media/img/demos/thumb6.jpg" />
+        <strong>Here is an item in the playlist</strong><br /><br />And a subtitle.
+        <em>0.22</em>
+    </a>
+
+    <a href="KimAronson-TwentySeconds70930.flv">
+        <img src="/media/img/demos/thumb7.jpg" />
+        <strong>Here is an item in the playlist</strong><br /><br />And a subtitle.
+        <em>0.22</em>
+    </a>
+
+</div>
+<!-- let the rest of the page float normally -->
+
+<!-- this script block will install Flowplayer inside previous A tag -->
+
+
+
+<script>
+$(function() {
+$f("player", "http://releases.flowplayer.org/swf/flowplayer-3.2.15.swf", {
+   clip: {baseUrl: 'http://stream.flowplayer.org'}
+    // playlist plugin
+    }).playlist("#playlist");
+});
+</script>
+</body>
+
+</html>
