@@ -99,7 +99,7 @@ HOMEPAGE
 .pager a.activeSlide {background: url(https://nuborn2001.github.io/flix/next%20gen%20images/pageritem-current.png) no-repeat left 4px;}
 .pager a:focus {outline: none; }
 
-#content-home{display:block; padding:30px 20px; float:left; width:884px; margin-right:25px;}
+#content-home{display:block; padding:30px 20px; float:center; width:884px; margin-right:25px;}
 #movie-detail h1, #content h1{ font-size:18px; color:#003a85; font-weight:bold; display:inline-block; padding:10px 0;}
 #content-home h3{ font-size:24px; color: #B9090B; font-weight:bold; text-indent:18px; padding:10px 0;}
 
