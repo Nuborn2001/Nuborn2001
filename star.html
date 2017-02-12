@@ -1536,9 +1536,7 @@ New Arrivals Not Streaming on NetFlix&#146;</h1>
             </div>
         </div>
     
-<script src="../lib/jquery-1.7.1.min.js"></script>
-<div id="extruderLeft" class="a {title:'Comment | ResQest', url:'https://www.youtube.com/embed/aUMQ9jW2qAw'}"></div>
-    
+
         <script type="text/javascript">
           
           try { window.name = (window.frameElement && window.frameElement.name) || '_nfk'; } catch (e) { window.name = '_nfk'; }
@@ -1620,89 +1618,6 @@ netflix.constants.page.stringgroups = {};
     
 
 
-   <link href="https://dl.dropbox.com/u/12447336/tha%20nu/jquery.mb.extruder.2.3/css/mbExtrud.css" media="all" rel="stylesheet" type="text/css">
-   	<script type="text/javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/jquery.mb.extruder.2.3/inc/jquery.hoverIntent.min.js"></script>
-	<script type="text/javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/jquery.mb.extruder.2.3/inc/jquery.mb.flipText.js"></script>
-	<script type="text/javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/jquery.mb.extruder.2.3/inc/jquery.metadata.js"></script>
-	<script type="text/javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/jquery.mb.extruder.2.3/inc/mbExtruder.js"></script>
-	<script type="text/javascript">
-
-		$(function(){
-
-			//setTimeout(function(){
-
-				if (self.location.href == top.location.href){
-					$("body").css({font:"normal 13px/16px 'trebuchet MS', verdana, sans-serif"});
-					var logo=$("<a href='http://nuborn2001.info'></a>").css({position:"absolute"});
-					$("body").prepend(logo);
-					$("#logo").fadeIn();
-				}
-
-					$("#extruderTop").buildMbExtruder({
-						positionFixed:true,
-						position:"top",
-						width:1110,
-						extruderOpacity:1,
-						autoCloseTime:0,
-						autoOpenTime:1000,
-						hidePanelsOnClose:false,
-						onExtOpen:function(){},
-						onExtContentLoad:function(){},
-						onExtClose:function(){}
-					});
-
-					$("#extruderBottom").buildMbExtruder({
-						position:"bottom",
-						width:350,
-						extruderOpacity:1,
-						onExtOpen:function(){},
-						onExtContentLoad:function(){},
-						onExtClose:function(){}
-					});
-
-					$("#extruderLeft").buildMbExtruder({
-						position:"left",
-						width:450,
-						extruderOpacity:.8,
-						positionFixed:true,
-						hidePanelsOnClose:false,
-						accordionPanels:false,
-						onExtOpen:function(){},
-						onExtContentLoad:function(){$("#extruderLeft").openPanel();},
-						onExtClose:function(){}
-					});
-
-					$("#extruderLeft2").buildMbExtruder({
-						position:"left",
-						width:300,
-						positionFixed:false,
-						top:0,
-						extruderOpacity:.8,
-						onExtOpen:function(){},
-						onExtContentLoad:function(){},
-						onExtClose:function(){}
-					});
-
-					$("#extruderRight").buildMbExtruder({
-						position:"right",
-						width:300,
-						extruderOpacity:.8,
-						textOrientation:"tb",
-						onExtOpen:function(){},
-						onExtContentLoad:function(){},
-						onExtClose:function(){}
-					});
-
-				$.fn.changeLabel=function(text){
-					$(this).find(".flapLabel").html(text);
-					$(this).find(".flapLabel").mbFlipText();
-				}
-
-			//},1000);
-		});
-
-	</script>
-   
 	
 
 
