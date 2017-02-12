@@ -796,7 +796,19 @@ rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-wid
     </div>
 </form>
 
-
+ <div class="pm-search">
+                <form action="http://potlocker.me/search.php" target="_blank" method="get" id="search" name="search" onsubmit="return validateSearch('true');">
+        <div class="controls">
+          <div class="input-append">
+            <input class="input-medium inp-small" id="appendedInputButton" size="16" name="keywords" type="text" placeholder="Search" x-webkit-speech="x-webkit-speech" onwebkitspeechchange="this.form.submit();"><button class="btn btn-blue" type="submit"><i class="icon-search"></i></button>
+          </div>
+          <div class="suggestionsBox" id="suggestions" style="display: none;">
+              <div class="suggestionList input-xlarge" id="autoSuggestionsList">
+              </div>
+          </div>
+        </div>
+        </form>
+               </div>							       
 
 
 
