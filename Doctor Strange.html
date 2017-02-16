@@ -1,0 +1,1242 @@
+
+<html xmlns="https://www.w3.org/1999/xhtml" xmlns:fb="https://www.facebook.com/2008/fbml" class=" en"><head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="save" content="history">
+        <link rel="shortcut icon" href="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/images/nficon%20%281%29.ico">
+        <script type="text/javascript" language="javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/lytebox1.js"></script>
+<script type="text/javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/net.js"></script>
+<title>Doctor Strange</title>
+<meta name="title" content="Netflix">
+<link rel="stylesheet" href="https://dl.dropbox.com/u/12447336/tha%20nu/lyteboxnf.css" type="text/css" media="screen" />
+<link rel="stylesheet" href="https://dl.dropbox.com/u/12447336/tha%20nu/sl.css" type="text/css" media="screen" />
+
+
+
+
+<script type="text/javascript">
+netflix.UITracking=function(){try{var g={debug:!1,debugOverlay:null,unsavedImpressions:[],viewportRegionClipY:-1,viewportRegion:null,fallbackSendBuffer:[],calledCounter:{},init:function(){(this.debug=uiTrackingConstants.debug)&&this.initDebug();this.initScanEvents();this.initSendEvents()},initDebug:function(){window.console||(window.console={log:function(a){},error:function(a){}});this.debugOverlay=netflix.UITrackingOverlay},initScanEvents:function(){var a=this,b=function(){a.scan()},c=0,d=function(d){c&&
+clearTimeout(c);c=setTimeout(function(){d&&(a.viewportRegion=null);b();c=0},200)};window.onscroll=function(){d(!1)};window.onresize=function(){d(!0)};this.defer(function(){window.jQuery&&(jQuery(document).on("sliderStopped",b),jQuery(document).on("netflix.uitracking.uiUpdated",b))})},initSendEvents:function(){this.defer(function(){netflix.UITrackingSender&&netflix.UITrackingSender.initPolling()})},defer:function(a){document.addEventListener?document.addEventListener("DOMContentLoaded",a):document.attachEvent("onreadystatechange",
+function(){"complete"===document.readyState&&a()})},counter:function(a){if(this.calledCounter[a])return!1;this.calledCounter[a]=!0;this.defer(function(){netflix.Counter&&netflix.Counter.increment("netflix.ui.uitracking."+a,"pterror")})},getAllTrackableElements:function(){return this.getElementsWithAttribute("data-uitrack")},getElementsWithAttribute:function(a){for(var b=[],c=document.getElementsByTagName("*"),d=0,e=c.length;d<e;d++)c[d].getAttribute(a)&&b.push(c[d]);return b},scan:function(){try{for(var a=
+this.getAllTrackableElements(),b=(new Date).getTime(),c=[[],[],[],[]],d=0,e;e=a[d];d++){var f=this.scanElement(e,b);this.debug&&c[f].push(e)}this.saveImpressions();if(this.debug){var g=[c[3].length+" new elements",a.length+" trackable",(new Date).getTime()-b+" ms"].join(", ");console.log("ui scan: "+g);this.debugOverlay&&this.debugOverlay.updateOverlays(c)}}catch(h){this.counter("error.scan")}},scanElement:function(a,b){var c=this.getWindowRegion();b=b||(new Date).getTime();var d=a.getBoundingClientRect(),
+e=0,f=-1<a.className.indexOf("uitracking-state-visible");this.isElementInRegion(d,c)&&(e=1,this.isVisibleOnPage(a,d)&&(e=2,f||(e=3)));3===e&&(this.registerImpression(a,b),a.className+=" uitracking-state-visible");f&&2>e&&(a.className=a.className.replace(" uitracking-state-visible",""));return e},getTrackingContext:function(a){a=a.getAttribute("data-uitrack");if(!a)return null;a=a.split(",");return 4>a.length?null:{video_id:this.resolveInt(a[0]),track_id:this.resolveInt(a[1]),row:this.resolveInt(a[2]),
+rank:this.resolveInt(a[3]),request_id:a[4]||uiTrackingConstants.REQUEST_ID||"unknown",location:a[5]||uiTrackingConstants.SITE_SECTION||"unknown"}},resolveInt:function(a){a=parseInt(a,10);isNaN(a)&&(a=-99);return a},setTrackingContext:function(a,b){for(var c=["video_id","track_id","row","rank"],d=[],e=0;e<c.length;e++){var f=c[e];this.debug&&!b.hasOwnProperty(f)&&console.error("trackElement - trackingContext field not found: "+f);d.push(b[f])}d.push(b.request_id||0);d.push(b.location||0);a.setAttribute("data-uitrack",
+d.join(","))},trackElement:function(a,b){this.setTrackingContext(a,b);this.scanElement(a);this.debug.debugOverlay&&this.debugOverlay.updateDebugOverlays()},getWindowRegion:function(){if(this.viewportRegion)return this.viewportRegion;if(0>this.viewportRegionClipY){var a=document.getElementById("hd");a&&"fixed"==this.getStyle(a,"position")?this.viewportRegionClipY=a.getBoundingClientRect().bottom:this.viewportRegionClipY=0}var a=window,b=document,c=b.documentElement,b=b.getElementsByTagName("body")[0];
+return this.viewportRegion={left:0,top:this.viewportRegionClipY,right:a.innerWidth||c.clientWidth||b.clientWidth,bottom:a.innerHeight||c.clientHeight||b.clientHeight}},isVisibleOnPage:function(a,b){for(var c=this.searchDom(a,"parentNode"),d=[],e=0,f;f=c[e];e++){if(this.isElementHidden(f))return!1;var g=this.getStyle(f,"overflow");g&&g.match(/hidden|scroll|auto/)&&d.push(f)}for(e=0;f=d[e];e++)if(!this.isElementInRegion(b,f.getBoundingClientRect()))return!1;return!this.isElementHidden(a)},isElementHidden:function(a){return"hidden"==
+this.getStyle(a,"visibility")},isElementInRegion:function(a,b){var c=a.left+(a.right-a.left)/2,d=a.top+(a.bottom-a.top)/2;return a.left==a.right||b.left==b.right?!1:c>=b.left&&c<=b.right&&d>=b.top&&d<=b.bottom},searchDom:function(a,b,c){var d=[];for(a=a[b];a&&9!==a.nodeType&&(void 0===c||1!==a.nodeType);)1===a.nodeType&&d.push(a),a=a[b];return d},getStyle:function(a,b){var c=document.defaultView;return c&&c.getComputedStyle?c.getComputedStyle(a,null).getPropertyValue(b):a.currentStyle?a.currentStyle[b]:
+""},registerImpression:function(a,b){var c=this.getTrackingContext(a);c?(c.time=b,this.unsavedImpressions.push(c),this.debugOverlay&&this.debugOverlay.markAsVisible(a)):this.debug&&console.error("Impression: No trackingContext for element",a)},saveImpressions:function(){var a=this.unsavedImpressions;this.unsavedImpressions=[];if(this.debug){for(var b=[],c=0,d=a.length;c<d;c++)b.push(a[c].row+","+a[c].rank+" "+a[c].video_id);console.log(b.join("\n"))}b=JSON.parse(localStorage.getItem("uitracking.unsentImpressions")||
+"[]");b=b.concat(a);try{localStorage.setItem("uitracking.unsentImpressions",JSON.stringify(b)),this.debug&&localStorage.setItem("uitracking.debug","true")}catch(e){this.fallbackSendBuffer=this.fallbackSendBuffer.concat(b),this.counter("error.localStorage.set")}}},h=!0;JSON&&JSON.stringify&&window.localStorage||(h=!1,g.counter("error.unsupportedBrowser"));h&&(g.init(),g.defer(function(){setTimeout(function(){g.scan()},100)}));return{isActive:function(){return h},getFallbackSendBuffer:function(){return h&&
+g.fallbackSendBuffer||[]},getTrackingContext:function(a){return g.getTrackingContext(a)},trackElement:function(a,b){return h&&g.trackElement(a,b)},scan:function(){return h&&g.scan()}}}catch(k){g.counter("error.general")}}();
+</script>
+
+
+        
+        <link rel="stylesheet" type="text/css" href="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/14.css">
+<script type="text/javascript">
+            var __noop = function() {}, dB = __noop, wRx = __noop, updateFormat = __noop, hideMenu = __noop, focusNClearInput = __noop, inlevent = __noop, GDMenu = {};
+            GDMenu.show = __noop;
+        </script>
+    <script type="text/javascript" async="" src="rtt.js"></script><style type="text/css">.fb_hidden{position:absolute;top:-10000px;z-index:10001}
+.fb_invisible{display:none}
+.fb_reset{background:none;border:0;border-spacing:0;color:#000;cursor:auto;direction:ltr;font-family:"lucida grande", tahoma, verdana, arial, sans-serif;font-size:11px;font-style:normal;font-variant:normal;font-weight:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal}
+.fb_reset > div{overflow:hidden}
+.fb_link img{border:none}
+.fb_dialog{background:rgba(82, 82, 82, .7);position:absolute;top:-10000px;z-index:10001}
+.fb_dialog_advanced{padding:10px;-moz-border-radius:8px;-webkit-border-radius:8px;border-radius:8px}
+.fb_dialog_content{background:#fff;color:#333}
+.fb_dialog_close_icon{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 0 transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif);cursor:pointer;display:block;height:15px;position:absolute;right:18px;top:17px;width:15px;top:8px\9;right:7px\9}
+.fb_dialog_mobile .fb_dialog_close_icon{top:5px;left:5px;right:auto}
+.fb_dialog_padding{background-color:transparent;position:absolute;width:1px;z-index:-1}
+.fb_dialog_close_icon:hover{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -15px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_close_icon:active{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yq/r/IE9JII6Z1Ys.png) no-repeat scroll 0 -30px transparent;_background-image:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yL/r/s816eWC-2sl.gif)}
+.fb_dialog_loader{background-color:#f2f2f2;border:1px solid #606060;font-size:24px;padding:20px}
+.fb_dialog_top_left,
+.fb_dialog_top_right,
+.fb_dialog_bottom_left,
+.fb_dialog_bottom_right{height:10px;width:10px;overflow:hidden;position:absolute}
+.fb_dialog_top_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 0;left:-10px;top:-10px}
+.fb_dialog_top_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -10px;right:-10px;top:-10px}
+.fb_dialog_bottom_left{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -20px;bottom:-10px;left:-10px}
+.fb_dialog_bottom_right{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ye/r/8YeTNIlTZjm.png) no-repeat 0 -30px;right:-10px;bottom:-10px}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right,
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{position:absolute;background:#525252;filter:alpha(opacity=70);opacity:.7}
+.fb_dialog_vert_left,
+.fb_dialog_vert_right{width:10px;height:100%}
+.fb_dialog_vert_left{margin-left:-10px}
+.fb_dialog_vert_right{right:0;margin-right:-10px}
+.fb_dialog_horiz_top,
+.fb_dialog_horiz_bottom{width:100%;height:10px}
+.fb_dialog_horiz_top{margin-top:-10px}
+.fb_dialog_horiz_bottom{bottom:0;margin-bottom:-10px}
+.fb_dialog_iframe{line-height:0}
+.fb_dialog_content .dialog_title{background:#6d84b4;border:1px solid #3b5998;color:#fff;font-size:14px;font-weight:bold;margin:0}
+.fb_dialog_content .dialog_title > span{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/yd/r/Cou7n-nqK52.gif)
+no-repeat 5px 50%;float:left;padding:5px 0 7px 26px}
+body.fb_hidden{-webkit-transform:none;height:100%;margin:0;overflow:visible;position:absolute;top:-10000px;left:0;width:100%}
+.fb_dialog.fb_dialog_mobile.loading{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/ya/r/3rhSv5V8j3o.gif)
+white no-repeat 50% 50%;min-height:100%;min-width:100%;overflow:hidden;position:absolute;top:0;z-index:10001}
+.fb_dialog.fb_dialog_mobile.loading.centered{max-height:590px;min-height:590px;max-width:500px;min-width:500px}
+#fb-root #fb_dialog_ipad_overlay{background:rgba(0, 0, 0, .45);position:absolute;left:0;top:0;width:100%;min-height:100%;z-index:10000}
+#fb-root #fb_dialog_ipad_overlay.hidden{display:none}
+.fb_dialog.fb_dialog_mobile.loading iframe{visibility:hidden}
+.fb_dialog_content .dialog_header{-webkit-box-shadow:white 0 1px 1px -1px inset;background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#738ABA), to(#2C4987));border-bottom:1px solid;border-color:#1d4088;color:#fff;font:14px Helvetica, sans-serif;font-weight:bold;text-overflow:ellipsis;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0;vertical-align:middle;white-space:nowrap}
+.fb_dialog_content .dialog_header table{-webkit-font-smoothing:subpixel-antialiased;height:43px;width:100%
+}
+.fb_dialog_content .dialog_header td.header_left{font-size:12px;padding-left:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .dialog_header td.header_right{font-size:12px;padding-right:5px;vertical-align:middle;width:60px
+}
+.fb_dialog_content .touchable_button{background:-webkit-gradient(linear, 0% 0%, 0% 100%, from(#4966A6),
+color-stop(0.5, #355492), to(#2A4887));border:1px solid #29447e;-webkit-background-clip:padding-box;-webkit-border-radius:3px;-webkit-box-shadow:rgba(0, 0, 0, .117188) 0 1px 1px inset,
+rgba(255, 255, 255, .167969) 0 1px 0;display:inline-block;margin-top:3px;max-width:85px;line-height:18px;padding:4px 12px;position:relative}
+.fb_dialog_content .dialog_header .touchable_button input{border:none;background:none;color:#fff;font:12px Helvetica, sans-serif;font-weight:bold;margin:2px -12px;padding:2px 6px 3px 6px;text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog_content .dialog_header .header_center{color:#fff;font-size:16px;font-weight:bold;line-height:18px;text-align:center;vertical-align:middle}
+.fb_dialog_content .dialog_content{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat 50% 50%;border:1px solid #555;border-bottom:0;border-top:0;height:150px}
+.fb_dialog_content .dialog_footer{background:#f2f2f2;border:1px solid #555;border-top-color:#ccc;height:40px}
+#fb_dialog_loader_close{float:left}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_button{text-shadow:rgba(0, 30, 84, .296875) 0 -1px 0}
+.fb_dialog.fb_dialog_mobile .fb_dialog_close_icon{visibility:hidden}
+.fb_iframe_widget{display:inline-block;position:relative}
+.fb_iframe_widget span{display:inline-block;position:relative;text-align:justify}
+.fb_iframe_widget iframe{position:absolute}
+.fb_iframe_widget_lift{z-index:1}
+.fb_hide_iframes iframe{position:relative;left:-10000px}
+.fb_iframe_widget_loader{position:relative;display:inline-block}
+.fb_iframe_widget_fluid{display:inline}
+.fb_iframe_widget_fluid span{width:100%}
+.fb_iframe_widget_loader iframe{min-height:32px;z-index:2;zoom:1}
+.fb_iframe_widget_loader .FB_Loader{background:url(https://fbstatic-a.akamaihd.net/rsrc.php/v2/y9/r/jKEcVPZFk-2.gif) no-repeat;height:32px;width:32px;margin-left:-16px;position:absolute;left:50%;z-index:4}
+.fb_connect_bar_container div,
+.fb_connect_bar_container span,
+.fb_connect_bar_container a,
+.fb_connect_bar_container img,
+.fb_connect_bar_container strong{background:none;border-spacing:0;border:0;direction:ltr;font-style:normal;font-variant:normal;letter-spacing:normal;line-height:1;margin:0;overflow:visible;padding:0;text-align:left;text-decoration:none;text-indent:0;text-shadow:none;text-transform:none;visibility:visible;white-space:normal;word-spacing:normal;vertical-align:baseline}
+.fb_connect_bar_container{position:fixed;left:0 !important;right:0 !important;height:42px !important;padding:0 25px !important;margin:0 !important;vertical-align:middle !important;border-bottom:1px solid #333 !important;background:#3b5998 !important;z-index:99999999 !important;overflow:hidden !important}
+.fb_connect_bar_container_ie6{position:absolute;top:expression(document.compatMode=="CSS1Compat"? document.documentElement.scrollTop+"px":body.scrollTop+"px")}
+.fb_connect_bar{position:relative;margin:auto;height:100%;width:100%;padding:6px 0 0 0 !important;background:none;color:#fff !important;font-family:"lucida grande", tahoma, verdana, arial, sans-serif !important;font-size:13px !important;font-style:normal !important;font-variant:normal !important;font-weight:normal !important;letter-spacing:normal !important;line-height:1 !important;text-decoration:none !important;text-indent:0 !important;text-shadow:none !important;text-transform:none !important;white-space:normal !important;word-spacing:normal !important}
+.fb_connect_bar a:hover{color:#fff}
+.fb_connect_bar .fb_profile img{height:30px;width:30px;vertical-align:middle;margin:0 6px 5px 0}
+.fb_connect_bar div a,
+.fb_connect_bar span,
+.fb_connect_bar span a{color:#bac6da;font-size:11px;text-decoration:none}
+.fb_connect_bar .fb_buttons{float:right;margin-top:7px}
+.fb_edge_widget_with_comment{position:relative;*z-index:1000}
+.fb_edge_widget_with_comment span.fb_edge_comment_widget{position:absolute}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget{z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget .FB_Loader{left:0;top:1px;margin-top:6px;margin-left:0;background-position:50% 50%;background-color:#fff;height:150px;width:394px;border:1px #666 solid;border-bottom:2px solid #283e6c;z-index:1}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.dark .FB_Loader{background-color:#000;border-bottom:2px solid #ccc}
+.fb_edge_widget_with_comment span.fb_send_button_form_widget.siderender
+.FB_Loader{margin-top:0}
+.fbpluginrecommendationsbarleft,
+.fbpluginrecommendationsbarright{position:fixed !important;bottom:0;z-index:999}
+.fbpluginrecommendationsbarleft{left:10px}
+.fbpluginrecommendationsbarright{right:10px}</style>
+
+</head>
+
+    
+        <div id="fixedHeaderLayer"></div>
+<div id="globalHeaderGradient" style="opacity:inherit;"></div>
+        <div id="doc2" class="">
+            <div class="svfDoc">
+                <div id="hd">
+                    
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="nav-wrap">
+    <ul id="global-header" class="global-header-wrap i-b">
+
+        
+        
+        
+        
+
+        
+        
+
+        
+
+        
+
+        
+            
+        
+
+     <li id="nav-watchinstantly" class="nav-item dropdown-trigger nav-item-current">
+                    <span class="i-b content">
+                        <a href="http://beforenlix.m">Before Netflix Watch Instantly</a>
+                        
+                            <span class="right-arrow"></span>
+                        
+                    </span>
+            <span class="i-b shim"></span>
+
+                  
+        <div class="subnav-wrap col-5">
+            
+                <ul class="subnav-tabs"><li><a href="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/jquery.mb.extruder.2.3/archivet.html" target="_blank">More Sources</a> </li>
+        <li><a href="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/multiseach.html" target="_blank">Multiseach</a></li>
+        <li><a href="">New Arrivals</a></li>
+        <li><a href="">HD</a></li>
+        <li><a href="">Subtitles &amp; Captions</a></li>
+        <li><a href="">Ways to Watch</a></li></ul>
+            
+                
+                
+            
+                <ul><li><a href="">TV Shows</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Action &amp; Adventure</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Anime</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Children &amp; Family</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Classics</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Comedies</a></li>
+
+        
+    </ul>
+    <ul>
+        
+        
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Cult Movies</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Documentaries</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Dramas</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Faith and Spirituality</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Foreign</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href=""></a></li>
+
+        
+    </ul>
+    <ul>
+        
+        
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Horror</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Independent</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Music</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Musicals</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Romance</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Sci-Fi &amp; Fantasy</a></li>
+
+        
+    </ul>
+    <ul>
+        
+        
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Sports Movies</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="">Thrillers</a></li></ul>
+            
+        </div>
+        <span class="up-arrow"></span>
+        
+        <span class="down-arrow"></span>
+        <span class="down-arrow-shadow"></span>
+        </li>
+        
+        
+        
+        
+        <li id="nav-kids" class="nav-item dropdown-trigger">
+                    <span class="i-b content">
+                        <a href="">The Kid in You</a>
+                        
+                            <span class="right-arrow"></span>
+                        
+                    </span>
+            <span class="i-b shim"></span>
+
+        
+        <div class="subnav-wrap col-5">
+            
+                <ul class="subnav-tabs"><li><a href="">Kids Home</a></li>
+        <li><a href="">Characters</a></li></ul>
+            
+                
+                
+            
+                <ul><li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/Wreck-It%20Ralph.html"target="_blank">Wreck It Ralph</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropbox.com/u/12447336/tha%20nu/%20Despicable%20Me%202.html"target="_blank">Despicable Me 2</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropbox.com/u/12447336/tha%20nu/Turbo.html"target="_blank">Turbo</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/MONSTERS%2C%20INC.html/"target="_blank">MONSTERS Inc.</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropbox.com/u/12447336/tha%20nu/Brave.html/"target="_blank">Brave</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/Monsters%20University.html/"target="_blank">Monsters University</a></li>
+
+        
+    </ul>
+    <ul>
+        
+        
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/How to Train Your Dragon.html"target="_blank">How to Train Your Dragon </a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/The Incredibles.html"target="_blank">The Incredibles</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/The Little Mermaid.html"target="_blank"rel="imgtip[246]">The Little Mermaid.</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/The Princess and the Frog.html"target="_blank"rel="imgtip[247]">The Princess and the Frog</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/Megamind The Button of Doom.html"target="_blank">Megamind: The Button of Doom</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/Scooby Doo 2.html"target="_blank">Scooby Doo 2: Monsters Unleashed</a></li>
+
+        
+    </ul>
+    <ul>
+        
+        
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="The Chronicles of Narnia The Voyage of the Dawn Treader.html"target="_blank">The Chronicles of Narnia: The Voyage of the Dawn Treader</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/The Lion King.html"target="_blank"rel="imgtip[243]">The Lion King</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/Aladdin.html"target="_blank"rel="imgtip[245]">Aladdin</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/Despicable Me 2 .html"target="_blank">Despicable Me 2 </a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/Despicable Me.html"target="_blank"rel="imgtip[244]">Despicable Me</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/The Smurfs.html"target="_blank">The Smurfs</a></li>
+
+        
+    </ul>
+    <ul>
+        
+        
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/The Iron Giant.html"target="_blank">The Iron Giant</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+        <li><a href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/Meet the Robinsons.html"target="_blank">Meet the Robinsons</a></li>
+
+        
+
+        
+
+            
+
+                
+                
+                
+       </ul>
+            
+        </div>
+       
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+        
+        
+        
+        
+
+        
+        
+        
+    </ul>
+</div>
+
+
+
+
+
+
+<style type="text/css">
+    #global-header li.nav-item {
+        max-width: 29.333333333333336%;
+    }
+
+    
+</style>
+
+
+<div class="last  allow-hover">
+    <div class="account-search">
+        
+            <div class="tagline priceMessage">Watch TV shows &amp; movies anytime, anywhere. Only <span class="price"></span> a month.</div>
+        
+        <div id="account-tools">
+            
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="account-tools"><div class="i-b shim"></div><div id="profileSwitcher" class="i-b account-menu "><div id="profilesLauncher"><img src="http://dl.dropboxusercontent.com/u/12447336/PICON_005.png" class="profileImg i-b" title="Brian"><div class="acct-menu-dropdown-trigger i-b">Comments</div></div><span class="down-arrow"></span><span class="down-arrow-shadow"></span><div id="profiles-menu" class="dropdown-menu dropdown-profiles"><div class="inner1"><div class="inner2"><div class="profiles-menuBody"><span class="up-arrow"></span><ul class="clearfix"><li  style="cursor:pointer"><a href="https://nuborn2001.github.io/flix/nuwall" class="lyteframe" data-title="Comment" 
+   data-lyte-options="width:1100 height:525 scrollbars:yes" target="_blank" title="Leave a Comment" data-img="http://dl.dropboxusercontent.com/u/12447336/fb_activity_indicator_blue_32x32.gif "><div class="i-b shim"></div><img src="http://dl.dropboxusercontent.com/u/12447336/fb_activity_indicator_blue_32x32.gif" class="profileImg i-b"><div class="profileName i-b">Comments</div></a></li><li  style="cursor:pointer"><a href="https://www.youtube.com/embed/aUMQ9jW2qAw" class="lyteframe" data-title="" 
+   data-lyte-options="width:1100 height:525 scrollbars:yes" target="_blank" title="Watch the Trailer"  data-img="http://cdn-0.nflximg.com/en_us/ffe/avatars_v2/32x32/PICON_027.png" data-kids="false" data-firstuse="false" onclick="return false;"><div class="i-b shim"></div><img src="http://dl.dropboxusercontent.com/u/12447336/PICON_009.png" class="profileImg i-b"><div class="profileName i-b">Watch the Trailer </div></a></li><li class="manage"><a href=""><div class="i-b shim"></div><div class="i-b">St</div></a></li></ul><div class="link"><a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RM8TPUSU44FRC" target="_blank">Donate</a></div><div class="link"><a href="http://dl.dropbox.com/u/12447336/tha%20nu/PLAY+.HTML" target="_blank">+</a></div></div></div></div></div></div></div><div class="body profiles-switch" id="profiles-switch"><div class="loading" style="display:block;"><img src=""></div><div class="shadow"></div></div>
+        </div>
+                         
+<div id="global-search-form">
+                        
+
+
+
+
+
+
+<form action="http://potlocker.me/search.php" target="_blank"id="global-search" name="search">
+   
+
+
+ <input type="text" tabindex="1" id="searchField" name="keywords" placeholder="Search movies from here!!!" class="default ui-autocomplete-input" autocomplete="on" role="textbox" aria-autocomplete="true" aria-haspopup="true">
+        <button type="submit" name="Nuborn2001.info_No popup ads in search" tabindex="2">Search</button>
+        </form>
+               </div>							       
+
+
+
+<span class="down-arrow"></span>
+<span class="down-arrow-shadow"></span>
+
+                    </div>
+                
+            
+            
+        
+    </div>
+    
+    
+    
+    
+</div>
+
+
+
+
+
+ 
+
+
+
+    
+
+
+
+                    
+                </div>
+                <div id="fground">
+                    
+
+
+
+
+
+
+
+
+
+
+
+
+                    <div id="bd" class="main-content vbg-right">
+                        
+                        
+                        
+                        
+                        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    
+        
+            
+<table id="dvd-only-result" class="clearfix hasSuggestions isFlexible" data-videoid="70243449"><thead><tr><td colspan="2" class=""><span>
+Buy Doctor Strange  From Amazon and support the site</span> </td></tr></thead><tbody><tr><td class="disc-screen"><img src="http://potlocker.me/uploads/thumbs/85f9441e1-1.jpg" onerror="this.src='http://dl.dropboxusercontent.com/u/12447336/tha%20nu/beimage/unavailable.jpg'" /></td><td class="disc-info"><p>                                                                            Support the site and the creators of these films !!! <span>Help us continue to give you what you want, when you want it.</span></p><a class="svf-button svfb-red" href="http://www.amazon.com/s/?_encoding=UTF8&camp=1789&creative=390957&field-keywords=Doctor Strange &linkCode=ur2&tag=nuborn2001-20&url=search-alias%3Dmovies-tv"target="_blank"><span>Amazon </span></a><img id="free-month-trial" src="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/beimage/Free_DVD_trial.png" /></td></tr></tbody></table>
+        
+        
+        
+    
+
+
+
+ 
+    
+    
+<div id="rslt-1-pas" class="mresult pas clearfix oddrow hasUpsell isFlexible"><p>  Many members streamed:                                       </p><span id="dbs70051893_0"  class="boxShot boxShot-150 queueable  hoverPlay  bobbable vbox_70051893"><img  class="boxShotImg hideBobBoxshot" alt="The Inevitable Defeat of Mister and Pete" src="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/beimage/MV5BMTUwMjgyNTE2OV5BMl5BanBnXkFtZTgwNzU1MzgwMDE%40._V1_SX314_.jpg"                ><a id="b070296220_0"              class="bobbable popLink hideBobBoxshot playLink full"              href="http://dl.dropboxusercontent.com/u/12447336/tha%20nu/The Inevitable Defeat of Mister and Pete.html"target="_blank"  >           &nbsp;           </a></span><span id=""  class="boxShot boxShot-150 queueable  hoverPlay  bobbable vbox_70142436"><img  class="boxShotImg hideBobBoxshot" alt="Merlin" src="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/beimage/MV5BNjU4NzYzOTY1MF5BMl5BanBnXkFtZTgwMTAyNTc1MDE%40._V1_SX214_.jpg"                ><a id="b070142436_0"              class="bobbable popLink hideBobBoxshot playLink full"              href="http://dl.dropbox.com/u/12447336/tha%20nu/Ride%20Along.html"target="_blank">           &nbsp;           </a></span><span id="dbs70208102_0"  class="boxShot boxShot-150 queueable  hoverPlay  bobbable vbox_70208102"><img  class="boxShotImg hideBobBoxshot" alt="" src="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/beimage/MV5BMTUwOTAzNzAwMl5BMl5BanBnXkFtZTgwOTc1NDIyMDE%40._V1_SY317_CR0%2C0%2C214%2C317_.jpg"                ><a id="b070208102_0"              class="bobbable popLink hideBobBoxshot playLink full"              href="http://dl.dropbox.com/u/12447336/tha%20nu/Homefront.html/"  target="_blank"data-uitrack="">           &nbsp;           </a></span><span id="dbs60021957_0"  class="boxShot boxShot-150 queueable  last hoverPlay  bobbable vbox_60021957"><img  class="boxShotImg hideBobBoxshot" alt="Gravity" src="https://dl.dropboxusercontent.com/u/12447336/MV5BMTQyNzAwOTUxOF5BMl5BanBnXkFtZTcwMTE0OTc5OQ%40%40._V1_SY317_CR4%2C0%2C214%2C317_.jpg"                ><a id="b060021957_0"              class="bobbable popLink hideBobBoxshot playLink full"              href="Thor The Dark World.html"  data-uitrack="" target="_blank">         &nbsp;           </a></span></div>
+
+
+
+<center><div class="inner">
+	<video width="100%" height="485px" poster="https://www.cinematerial.com/media/posters/md/c8/c8zuz677.jpg?v=1480788047" controls>
+  <source src="http://hotlocker.net/vid/Doctor%20Strange.mp4">
+  <a href=""><img src="" width="320"></a>
+</video>
+           
+
+
+            
+        </div>
+</Center><h1 class="page-title">Hot  
+Right Now</h1>
+
+    <h1 class="page-title">&#145; 
+New Arrivals Not Streaming on NetFlix&#146;</h1>
+<div id="searchResultsPrimary" class="searchResultsPrimary srEnhanced">
+    <div id="searchResultsPrimaryWrapper">
+	
+	
+	
+	<div id="rslt-2-70297143" class="mresult clearfix">
+    <div class="agMovie"><span id="dbs70297143_0"  class="boxShot boxShot-166 queueable  hoverPlay   vbox_70297143"><img  class="boxShotImg hideBobBoxshot" alt="Nurse 3D" src="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/beimage/MV5BMjM3MzczODA2N15BMl5BanBnXkFtZTgwOTczNjg4MDE%40._V1_SX314_.jpg"                ><a id="b070297143_0"              class=" popLink hideBobBoxshot playLinkNotBobbable full"              href="http://dl.dropbox.com/u/12447336/tha%20nu/Apocalypse Pompeii.html"target="_blank"  data-uitrack="70297143,2361637,null,null">           &nbsp;           </a></span></div><div class="media"><div class="relevant-information"><span class="title "><a id="b070297143_1" href="http://dl.dropbox.com/u/12447336/tha%20nu/Apocalypse Pompeii.html"target="_blank  " class="mdpLink"                                    >Apocalypse Pompeii</a></span><span class="year" >   18 February 2014</span><meta  content="2013-12-03"/><span class="rating">R  </span><span class="duration">     87 min  </span><meta  content="PT98M" />
+        
+
+
+
+
+  
+
+<p class="synopsis" ><strong></strong>"When a Former Special Ops commando visits Pompeii, his wife and daughter are trapped as Mt. Vesuvius erupts with massive force. While his family fights to survive the deadly onslaught of heat and lava, he enlists his former teammates in a daring operation beneath the ruins of Pompeii.|Ratings: 3.7/10 from 65 users  <strong></strong>.</p>
+        <dl class="actors"><dt>    Cast:</dt><dd>Adrian Paul, Jhey Castles, Georgina Beedle|</dd></dl><dl class="qtCats qtMoods"><dt>    This movie is:</dt><dd><a href=""> Action | Adventure </a></dd></dl></div><div class="actions clearfix"><div id="M70178217_2361637_1_6" class=" starbar stbrWrapIl"><span class="stbrMaskBg stbrMaskBgIl"><span class="stbrMaskFg sbmfpr sbmf-45" tabindex="1">                    Ratings: 7.7/10               </span></span></div><span class="btnWrap mltBtn mltBtn-s60" onmouseover="inlevent(this, event)"><a id='m70297143_0' href="http://dl.dropbox.com/u/12447336/tha%20nu/Apocalypse Pompeii.html "target="_blank" class="svf-button svfb-red " data-vid="70297143" ><span class="inr ">Watch Now</span></a></span></div></div>
+
+</div>
+	
+	
+	
+	
+	
+	
+	<div id="rslt-2-70297143" class="mresult clearfix oddrow">
+    <div class="agMovie"><span id="dbs70297143_0"  class="boxShot boxShot-166 queueable  hoverPlay   vbox_70297143"><img  class="boxShotImg hideBobBoxshot" alt="Nurse 3D" src="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/beimage/MV5BMjM4MjYwMjQ2Nl5BMl5BanBnXkFtZTgwMTkxODM1MDE%40._V1_SX314_.jpg"                ><a id="b070297143_0"              class=" popLink hideBobBoxshot playLinkNotBobbable full"              href="http://dl.dropbox.com/u/12447336/tha%20nu/Nurse 3D.html"target="_blank"  data-uitrack="70297143,2361637,null,null">           &nbsp;           </a></span></div><div class="media"><div class="relevant-information"><span class="title "><a id="b070297143_1" href="http://dl.dropbox.com/u/12447336/tha%20nu/Nurse 3D.html"target="_blank" class="mdpLink"                                    >Nurse 3D</a></span><span class="year" >  7 February 2014</span><meta  content="2013-12-03"/><span class="rating">R  </span><span class="duration">    84 min </span><meta  content="PT98M" />
+        
+
+
+
+
+  
+
+<p class="synopsis" ><strong></strong>"By day Abby Russell is a dedicated nurse, someone you wouldn't hesitate to trust your life with. But by night, her real work begins...using her smoldering sexuality she lures cheating men to their brutal deaths and exposes them for who they really are. When a younger nurse starts to suspect Abby's actions and compromises her master plan, Abby must find a way to outsmart her long enough to bring the cheater you'd least expect to justice.|Ratings: 4.7/10 from 1,062 users   <strong></strong>.</p>
+        <dl class="actors"><dt>    Cast:</dt><dd>Paz de la Huerta, Katrina Bowden, Judd Nelson|</dd></dl><dl class="qtCats qtMoods"><dt>    This movie is:</dt><dd><a href="">Thriller</a></dd></dl></div><div class="actions clearfix"><div id="M70178217_2361637_1_6" class=" starbar stbrWrapIl"><span class="stbrMaskBg stbrMaskBgIl"><span class="stbrMaskFg sbmfpr sbmf-45" tabindex="1">                    Ratings: 7.7/10               </span></span></div><span class="btnWrap mltBtn mltBtn-s60" onmouseover="inlevent(this, event)"><a id='m70297143_0' href="http://dl.dropbox.com/u/12447336/tha%20nu/Nurse 3D.html "target="_blank" class="svf-button svfb-red " data-vid="70297143" ><span class="inr ">Watch Now</span></a></span></div></div>
+
+</div>
+	
+	
+	
+	
+	
+	
+	
+
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+
+
+        
+        
+            <div class="clearfix">
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div class="pagination paginationNumbersAsText clearfix">
+  <div>
+  
+  
+    
+      <span class="svf-button svfb-disabled svfb-default svfb-default-disabled prev prev-disabled"><span>prev</span></span>
+    
+    
+  
+  
+  
+  
+  
+  
+  
+    
+    
+        
+            <a class="pageNumber active" href="" title="Reload page 1">1</a>
+        
+        
+    
+  
+    
+    <a class="pageNumber " href="nap2.html" title="Go to page 2">2</a>
+        
+    <a class="pageNumber" href="nb42.html" title="Go to page 3">3</a>
+        
+    
+  
+  
+  
+  
+    
+    
+      <a title="Go to the next page" class="svf-button svfb-default next" href="nap2.html"><span>next</span></a>
+    
+  
+  
+  </div>
+</div></div>
+        
+    </div>
+</div>
+
+                        
+                    </div>
+                </div>
+
+                
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="footer" false>
+   <div class="nav-wrapper">     <div class="copyright">
+            2012-2013 Brian O. Smith
+        </div>
+
+        
+
+        <div class="links-wrap">
+
+            <div class="link-types">
+                <ul>
+                    <li>Veiwer Supported Website</li>
+                   
+                </ul>
+            </div>
+
+            <div class="nav-links">
+
+                <ul>
+                    
+                        
+                  
+                </ul>
+            </div>
+        </div>
+        
+    </div>
+
+    <div class="tos-wrap">
+		
+			<div class="service-code unified_auth_box" id="">
+				<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=RM8TPUSU44FRC"target="_blank">Please Donate</a>
+			</div>
+		
+		<div class="tos">
+			
+				
+				
+			Movies and T.V show are hosted by third party Web sites. 
+		</div>
+    </div>
+</div>
+
+
+            </div>
+        </div>
+    
+
+        <script type="text/javascript">
+          
+          try { window.name = (window.frameElement && window.frameElement.name) || '_nfk'; } catch (e) { window.name = '_nfk'; }
+var IMAGE_ROOT = '';
+var BS_MOD = 10;
+var cinematchEnabled = true;
+
+          
+          
+          window.netflix = window.netflix || {};netflix.constants = {"page":{"merchMdxJs":"http://cdn-0.nflximg.com/en_us/ffe/websiteui/mdx/mdx-1374083881674.js","UITRACKING_SEND_RATE_MS":4000,"listBoxshotPlayId":11802981,"MEMBER_GUID":"WNQXAJ32N5DKNMW4D3UQQZKUBA","REQUEST_ID":"278d9cfd-3887-439d-9460-fc932c238937-1143025","StreamingContext":true,"":{"autoCompleteResultUrl":"http://movies.netflix.com","queueCloudUrl":"http://autocomplete.netflix.com/JSON/AutoCompleteSearch","beaconUrl":"http://beacon.netflix.com/img/BAQgBEAEa0AUTq6nTKIKHyWTsYOlaJFksX1zwTYVXXNl48nUtyd_qeMc8qCPqRHFpjpQfRS8I-YNNhhIfxRQO9LZJTheDz3QeRgTmdKSUkvxEhnXALG4XnZHk52XmiB-eazrfN5O99CPHsDM6xlw4_ysc0LGrfuUeCGEtGDnnldwD1DgHEmtBSYdRPcTYK5v3d5gdrmbzSdLfy9u5UgRHcmYylabxbhVMxOmFoawgWNqofi_McC_vu6pusb8rT4B4pHpcNwwdJn97QEbwcR-ZXrSPb2he0pO8snyx4dcVhowDKASAHwW7XssrDQHQYocdRY_TDeZhB3fvQhrxVj79fIkWCewIVemLFNdsAZzFX3RpMnoh3YfA63AhUZjNRXRTZcqb8PgysHtgBr7picQFiHz4R3_brsj3zzHuHPNT2ziZvtsOxb6aM49AZUNsqrt8iHckxubq_WXKwJlMf61hZ8ruqAUPYwlN9bIALw07QzZ0D63rnm3Mbt_PZ-jqiNk8lW9BDZIW7ZWooqYJ06p1kql4qwoi4c99ETxgcKtDZPsGyBYEcEJdleyfxMhdmSYFw6Wrpn7qQeh1N2RWC-5-yx7q0VXutUBCU8FikHmF1bOvBFHJPnNH9Dj7MCwhlyftQcLd8-pC2bDydo1waD0SfjWKxB4SRWLWRADoKzj-G9HEF4Y2hhN7fIlKXWe1tEbz4GSIoGEwf63Gv6lLgy4bHTBnJplxFrCzvwezDLeUtyaJfl4A0MOfXbaCjOVPYIe1natFmTPjA0eqKr89h7rlFAKvLDeOkHDNdDhk8s5z0ULcFn6_yOqvi9n-QsJWr0dRulxbEy3v0o_085RBYrF6q-zbc37dAM0cY44ZcV1SVIcagXavOffOKuRmuwDdLSdc32Kniq5tqhY_pFiWd_uWL4z4U4SDx_HqSqZuLPJjL3GRbaDy0dhOP7y-JVw0_m2HmjVx4nZwaVs.","zIndex":"200","queryOptions":{"n":"10","type":"Grouped"},"sessionId":4.3590298E7,"autoCompleteUrl":"/JSON/AutoCompleteSearch","cloudUrl":"http://movies.netflix.com/JSON/AutoCompleteSearch","preventDefaultOutbound":true},"siteSection":"watchnow","UITRACKING_SWITCHES":"useQueryString, reportTrackId:2361637, addPlayContextDefaults","SEARCH_DOM_FIELD_ID":"searchField","resPullFreq":10,"SiteSection":"WATCHNOW","SEARCH_DOM_FORM_ID":"global-search","APP_NAME":"NFZUUL","xsrf":"1388439280252.8LXxKX9wWIIS7h5zgkZ/sD1vNiY=","COUNTRY":"US","usableListRowItems":0,"UITRACKING_USER_AGENT":"win 7,chrome 31","IS_CURRENT_MEMBER":true,"TEMP_ACTIVE_COUNTERS":"pterror, ptplaycontext","ibob":true,"LOCALE":"en-US","bobServer":"http://movies.netflix.com/","APP_VERSION":"unknown","ESN":"SLW32-Z5F0KM7URQ610LXG3C8HN9HTN0","disableCustomerLogging":false,"brighttag.memberType":"CURRENT_MEMBER"},"global":{"CLOUD_LOCAL_ROOT_SECURE":"https://movies.netflix.com","FACEBOOK_APPID":"163114453728333","API_PROXY_ROOT":"/proxy-us/api","SL_ENV":"prod","IMAGE_ROOT":"http://cdn-0.nflximg.com/en_us/","SilverlightLoggingVersions":["1.0","2.0.30226","2.0.30523","2.0.31005","2.0.40115","3.0","3.0.40307","3.0.40624","4.0.50401","4.0.50826"],"CINEMATCH_ENABLED":"true","TRACKING_ROOT":"http://nmtracking.netflix.com","CLOUD_LOCAL_ROOT":"http://movies.netflix.com","ICHNAEA_PROXY_ROOT":"/ichnaea","CUSTOMER_EVENT_PROXY_ROOT":"/customerevents","QUEUE_ALTERNATE_NAME":true,"ACCOUNT_SIGNUP_ROOT":"https://signup.netflix.com","BUILD_DATE":"2013-12-19_01:00:31","BUILD_VERSION":"2057102.h808","QUEUE_UNDO":true,"CLOUD_ROOT_SECURE":"https://movies.netflix.com","CLOUD_ROUNDTRIPTRACERS":true,"SL_XAP_URL":"http://movies.netflix.com/layout/silverlight/Player-v3-SL5.xap?v=3.2057.993.0","QUEUE_ENABLE_REMOVE_ALL":true,"SIGNUP_ROOT":"https://signup.netflix.com","ICHNAEA_ROOT":"http://ichnaea.netflix.com","EVO_ROLLED_OUT":true,"SOURCE_VERSION":"2057102.h808#WE-CLOUD-MERCH-frontend-prod-FMLY#2013-12-19_01:00:31","MERCH_ROOT_SECURE":"https://movies.netflix.com/","CARRY_PARAMS":"forceCountry,locale","MERCH_ROOT":"http://movies.netflix.com/","CS_ROOT_SECURE":"https://contactus.netflix.com","FACEBOOK_LOCALE":"en_US","CS_ROOT":"http://contactus.netflix.com","ACCOUNT_API_PROXY_ROOT":"/ApiProxy?apiPath=","API_ROOT":"https://api-global.netflix.com","CDN_COUNT":10,"UI_TRACKING_ROOT":"http://presentationtracking.netflix.com","UI_TRACKING_PROXY_ROOT":"/uitracking","SERVER_ID":"i-0305ee2d","FACEBOOK_CHANNEL_URL":"/Facebook/Channel/en_US","ECAPI_PROXY_ROOT":"/ecapi","SL_MIN_VERSION":"5.1.10411.0","CUSTOMER_PLAN":"sop","CLOUD_ROOT":"http://movies.netflix.com","BUILD_JOB":"WE-CLOUD-MERCH-frontend-prod-FMLY","PALADIN_AUTOMATION_JS":"//tenfootui.netflix.com/webui/paladin.js","CLOUD_ACCOUNT_ROOT":"http://account.netflix.com","MERCH_PROXY_ROOT":"http://movies.netflix.com/","CUSTOMER_EVENT_ROOT":"http://customerevents.netflix.com","ECAPI_ROOT":"https://api-global.netflix.com/ecapi","SIGNUP_PROXY_ROOT":"/proxy-us/signup","ACCOUNT_SIGNUP_PROXY_ROOT":"/SignupApiProxy?apiPath=","ACCOUNT_API_ROOT":"https://api-global.netflix.com","CLOUD_ACCOUNT_ROOT_SECURE":"https://account.netflix.com","JSPERF_ENABLED":false}};
+
+          
+          
+          if (!window.netflix) { window.netflix = {}; }
+netflix.DOMMovieInfo = {"70178217":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70296220":{"prefixes":{"dbs":0,"b0":0}},"70271614":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70242311":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70110554":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70208102":{"prefixes":{"dbs":0,"b0":0}},"70143866":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70297143":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70266409":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70051893":{"prefixes":{"dbs":0,"b0":1,"m":0}},"60021957":{"prefixes":{"dbs":0,"b0":0}},"70150438":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70183343":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70264614":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70249879":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70142436":{"prefixes":{"dbs":0,"b0":0}},"70257630":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70264333":{"prefixes":{"dbs":0,"b0":1,"m":0}},"70234498":{"prefixes":{"dbs":0,"b0":1,"m":0}}};
+
+          
+        </script>
+
+        
+        
+
+
+
+
+<script type="text/javascript">(function(nf) { 'use strict'; nf.contextData = nf.constants.page.contextData = {"autocomplete":{"data":{"idle_timer":9000,"base_experience":true,"text_only":true,"info_detail":false,"boxart_play":false,"callout_play":false,"aggressive_play":false,"sidecar":false,"boxart":false,"play_button":false,"disable_headshots":false,"landscape":false},"urls":{"mdp":"/WiMovie/${title}/${id}?sod=search-autocomplete","rdp":"/WiRoleDisplay?personid=${id}&sod=search-autocomplete","player":"/WiPlayer?movieid=${id}&trkid=13129420&sod=search-autocomplete","search":"/WiSearch?v1=${displayValue}&raw_query=${term}&ac_abs_posn=${acAbsPosn}&ac_rel_posn=${acRelPosn}&ac_category_type=${acCategoryType}"}}}; }(netflix));</script>
+ 
+        
+
+        
+        
+            
+            <script type="text/javascript">
+netflix.constants.global.i18nStrings = {"genrepage.facet.tooltip":"Uncheck other boxes to enable","genrepage.qt.msg.select":"Please select at least one category to begin...","genrepage.qt.msg.error":"Sorry, results are unavailable.  Please try again.","genrepage.qt.title.select":"Choose a category","genrepage.qt.html.spinner":"Searching...","modalpanes.nav.button.back":"Back","modalpanes.nav.button.forward":"Forward","modalpanes.nav.button.close":"Close","modalpanes.generic.pane.load.error":"We're sorry an error occurred while processing your request.","video.gallery.emptyList":"Sorry, there are no movies currently available in this category.","video.starbar.save":"Saving...","video.starbar.not.interested.text":"Not Interested","tasteInput.noExamples":"Sorry, there are no examples currently available in this category.","rateMovies.loadingMessage":"Finding another movie to rate","quacl.action.add.message":"Adding Movie to Your Instant Queue","quacl.action.delete.message":"Deleting Movie from Your Instant Queue","quacl.action.movetotop.message":"Moving Movie to the Top of Your Instant Queue","quacl.action.changemedia.message":"Changing Format of the Movie in Your Queue","quacl.action.fallback.message":"Checking Your Instant Queue","quacl.action.add.message.rename":"Adding to Your List","quacl.action.delete.message.rename":"Deleting from Your List","quacl.action.movetotop.message.rename":"Moving to the Top of Your List","quacl.action.changemedia.message.rename":"Changing Format of the Movie in Your List","quacl.action.fallback.message.rename":"Checking Your List","quacl.action.add.message.evo":"Adding to My List","quacl.action.delete.message.evo":"Deleting from My List","quacl.action.movetotop.message.evo":"Moving to the Top of My List","quacl.action.changemedia.message.evo":"Changing Format of the Movie in My List","quacl.action.fallback.message.evo":"Checking My List","quacl.options.toggle.show.message":"[+] Show Additional Options","qaucl.options.toggle.hide.message":"[-] Hide Additional Options","quacl.nav.button.back":"Back","quacl.nav.button.forward":"Forward","quacl.nav.button.close":"Close","quacl.generic.pane.load.error":"We're sorry an error occurred while processing your request.","quacl.action.save.message":"Saving to My List","videobutton.removing":"Removing...","user.list.remove.error.message":"Sorry...there was a problem removing from your List. Please try again.","evidence.recently.added.default":"Just Added","autocomplete.default.term":"Movies, TV shows, actors, directors, genres"};
+</script>
+            <script  type="text/javascript">
+netflix.constants.page.stringgroups = {};
+</script>
+        <script type="text/javascript" src="package.js"></script>
+
+        
+
+        
+        <script type="text/javascript">
+            (function(){netflix.header = netflix.header || {};netflix.header.list = {};netflix.header.list.data = {"queue":false,"recommendations":[]};})();
+
+
+                   
+
+            netflix.StoreGeoLocation( 'US' );
+        </script>
+        
+
+<!--  -->
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--i18nDebug:ip=209.213.29.229:geo=US:signup=US:locale=en-US-->
+
+
+
+<html xmlns="http://www.w3.org/1999/xhtml" dir="ltr" lang="en-US"><head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ 
+    
+	<script type="text/javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/1.4.2 jquery.min.js"></script>
+	<script type="text/javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/latest.js"></script>
+	<script type="text/javascript" src="https://dl.dropbox.com/u/12447336/tha%20nu/generaflixl.js"></script>
+    
+
+
+	
+
+
+
+
+
+
+
+    
+
+
+	
+
+
+
+
+      </body>
+    
+</html>
+
+<!-- Dynamic page generated in 0.937 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2012-06-22 21:34:01 -->
