@@ -137,15 +137,15 @@ display: block;
 
 
 /*===SLIDER SMALL===*/
-.slider-box-small{display:block; clear:both; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
+.slider-box-small{display:block; clear:both; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
 .slider-box-small #slider-na,
 .slider-box-small #slider-mp,
 .slider-box-small #slider-nu,
 .slider-box-small #slider-browse{width:612px; margin:0 auto;}
-.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
+.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
 .slider-box-small .right, .slider-box-small .left{display:block;  width:23px; height:39px; text-indent:9999px; overflow:hidden; margin-top:90px;}
-.slider-box-small .right{float:right; background:url(http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
-.slider-box-small .left{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat;}
+.slider-box-small .right{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
+.slider-box-small .left{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat;}
 
 a#next-na, a#prev-na,
 a#next-mp, a#prev-mp,
@@ -154,11 +154,11 @@ a#next-browse, a#prev-browse{display:block;  width:23px; height:39px; text-inden
 a#next-na,
 a#next-mp,
 a#next-nu,
-a#next-browse{float:right; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -65px top;}
+a#next-browse{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -65px top;}
 a#prev-na,
 a#prev-mp,
 a#prev-nu,
-a#prev-browse{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -32px top;}
+a#prev-browse{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -32px top;}
 
 .slide ul{height:218px; overflow:hidden;}
 .slide ul li h3{position:relative; text-align:center; vertical-align:top; height:30px; width:112px; font-size:11px !important; font-weight:normal !important; line-height:14px;padding:0 !important; text-indent:0 !important}
@@ -170,16 +170,16 @@ a#prev-browse{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%2
 .slide ul li span em { display:block; font-size: 14px; font-weight: bold; margin: 0px 1px;font-style:normal;}
 .slide ul li a{color:#003a85; text-decoration:none; display:block;position:relative;}
 .slide ul li a:hover{text-decoration:underline;}
-.slide ul li a.bt{display:block; text-align:center; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
+.slide ul li a.bt{display:block; text-align:center; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
 .slide ul li a.bt:hover{text-decoration:none;}
 
 /*===SLIDER SMALL===*/
-.slider-box-small{display:block; clear:both; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
+.slider-box-small{display:block; clear:both; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
 .slider-box-small #slider-na2,
 .slider-box-small #slider-mp2,
 .slider-box-small #slider-nu2,
 .slider-box-small #slider-browse{width:612px; margin:0 auto;}
-.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
+.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
 .slider-box-small .right, .slider-box-small .left{display:block;  width:23px; height:39px; text-indent:9999px; overflow:hidden; margin-top:90px;}
 .slider-box-small .right{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
 .slider-box-small .left{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat;}
@@ -207,19 +207,19 @@ a#prev-browse2{float:left; background:url(https://nuborn2001.github.io/flix/next
 .slide ul li span em { display:block; font-size: 14px; font-weight: bold; margin: 0px 1px;font-style:normal;}
 .slide ul li a{color:#003a85; text-decoration:none; display:block;position:relative;}
 .slide ul li a:hover{text-decoration:underline;}
-.slide ul li a.bt{display:block; text-align:center; background:url(http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
+.slide ul li a.bt{display:block; text-align:center; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
 .slide ul li a.bt:hover{text-decoration:none;}
 
 /*===SLIDER SMALL===*/
-.slider-box-small{display:block; clear:both; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
+.slider-box-small{display:block; clear:both; background:url(https://nuborn2001.github.io/flix/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
 .slider-box-small #slider-na3,
 .slider-box-small #slider-mp3,
 .slider-box-small #slider-nu3,
 .slider-box-small #slider-browse{width:612px; margin:0 auto;}
-.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
+.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
 .slider-box-small .right, .slider-box-small .left{display:block;  width:23px; height:39px; text-indent:9999px; overflow:hidden; margin-top:90px;}
-.slider-box-small .right{float:right; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
-.slider-box-small .left{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat;}
+.slider-box-small .right{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
+.slider-box-small .left{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat;}
 
 a#next-na3, a#prev-na3,
 a#next-mp3, a#prev-mp3,
@@ -228,11 +228,11 @@ a#next-browse3, a#prev-browse3{display:block;  width:23px; height:39px; text-ind
 a#next-na3,
 a#next-mp3,
 a#next-nu3,
-a#next-browse3{float:right; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -65px top;}
+a#next-browse3{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -65px top;}
 a#prev-na3,
 a#prev-mp3,
 a#prev-nu3,
-a#prev-browse3{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -32px top;}
+a#prev-browse3{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -32px top;}
 
 .slide ul{height:218px; overflow:hidden;}
 .slide ul li h3{position:relative; text-align:center; vertical-align:top; height:30px; width:112px; font-size:11px !important; font-weight:normal !important; line-height:14px;padding:0 !important; text-indent:0 !important}
@@ -244,19 +244,19 @@ a#prev-browse3{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%
 .slide ul li span em { display:block; font-size: 14px; font-weight: bold; margin: 0px 1px;font-style:normal;}
 .slide ul li a{color:#003a85; text-decoration:none; display:block;position:relative;}
 .slide ul li a:hover{text-decoration:underline;}
-.slide ul li a.bt{display:block; text-align:center; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
+.slide ul li a.bt{display:block; text-align:center; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
 .slide ul li a.bt:hover{text-decoration:none;}
 
 /*===SLIDER SMALL===*/
-.slider-box-small{display:block; clear:both; background:url(http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
+.slider-box-small{display:block; clear:both; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
 .slider-box-small #slider-na4,
 .slider-box-small #slider-mp4,
 .slider-box-small #slider-nu4,
 .slider-box-small #slider-browse{width:612px; margin:0 auto;}
-.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
+.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
 .slider-box-small .right, .slider-box-small .left{display:block;  width:23px; height:39px; text-indent:9999px; overflow:hidden; margin-top:90px;}
-.slider-box-small .right{float:right; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
-.slider-box-small .left{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat;}
+.slider-box-small .right{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
+.slider-box-small .left{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat;}
 
 a#next-na4, a#prev-na4,
 a#next-mp4, a#prev-mp4,
@@ -265,11 +265,11 @@ a#next-browse4, a#prev-browse4{display:block;  width:23px; height:39px; text-ind
 a#next-na4,
 a#next-mp4,
 a#next-nu4,
-a#next-browse4{float:right; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -65px top;}
+a#next-browse4{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -65px top;}
 a#prev-na4,
 a#prev-mp4,
 a#prev-nu4,
-a#prev-browse4{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -32px top;}
+a#prev-browse4{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -32px top;}
 
 .slide ul{height:218px; overflow:hidden;}
 .slide ul li h3{position:relative; text-align:center; vertical-align:top; height:30px; width:112px; font-size:11px !important; font-weight:normal !important; line-height:14px;padding:0 !important; text-indent:0 !important}
@@ -281,19 +281,19 @@ a#prev-browse4{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%
 .slide ul li span em { display:block; font-size: 14px; font-weight: bold; margin: 0px 1px;font-style:normal;}
 .slide ul li a{color:#000000; text-decoration:none; display:block;position:relative;}
 .slide ul li a:hover{text-decoration:underline;}
-.slide ul li a.bt{display:block; text-align:center; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
+.slide ul li a.bt{display:block; text-align:center; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
 .slide ul li a.bt:hover{text-decoration:none;}
 
 /*===SLIDER SMALL===*/
-.slider-box-small{display:block; clear:both; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
+.slider-box-small{display:block; clear:both; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat; width:666px; height:218px; overflow:hidden; padding:10px 20px; margin-bottom:30px;}
 .slider-box-small #slider-na5,
 .slider-box-small #slider-mp5,
 .slider-box-small #slider-nu5,
 .slider-box-small #slider-browse{width:612px; margin:0 auto;}
-.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
+.slider-box-small .slide{width:612px; height:218px; overflow:hidden; background: url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-box-small-bg.png) no-repeat -10px -10px;}
 .slider-box-small .right, .slider-box-small .left{display:block;  width:23px; height:39px; text-indent:9999px; overflow:hidden; margin-top:90px;}
-.slider-box-small .right{float:right; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
-.slider-box-small .left{float:left; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat;}
+.slider-box-small .right{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -98px top;}
+.slider-box-small .left{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat;}
 
 a#next-na5, a#prev-na5,
 a#next-mp5, a#prev-mp5,
@@ -302,11 +302,11 @@ a#next-browse5, a#prev-browse5{display:block;  width:23px; height:39px; text-ind
 a#next-na5,
 a#next-mp5,
 a#next-nu5,
-a#next-browse5{float:right; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -65px top;}
+a#next-browse5{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -65px top;}
 a#prev-na5,
 a#prev-mp5,
 a#prev-nu5,
-a#prev-browse5{float:left; background:url(http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/slider-arrows.png) no-repeat -32px top;}
+a#prev-browse5{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -32px top;}
 
 .slide ul{height:218px; overflow:hidden;}
 .slide ul li h3{position:relative; text-align:center; vertical-align:top; height:30px; width:112px; font-size:11px !important; font-weight:normal !important; line-height:14px;padding:0 !important; text-indent:0 !important}
@@ -318,12 +318,12 @@ a#prev-browse5{float:left; background:url(http://dl.dropbox.com/u/12447336/tha%2
 .slide ul li span em { display:block; font-size: 14px; font-weight: bold; margin: 0px 1px;font-style:normal;}
 .slide ul li a{color:#003a85; text-decoration:none; display:block;position:relative;}
 .slide ul li a:hover{text-decoration:underline;}
-.slide ul li a.bt{display:block; text-align:center; background:url(http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
+.slide ul li a.bt{display:block; text-align:center; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
 .slide ul li a.bt:hover{text-decoration:none;}
 
 
 /*===GENRES NAV BOX===*/
-#genres{display:block; clear:both; background:url(http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/genres-bg.png) no-repeat; width:666px; height:179px; overflow:hidden; padding:15px 20px; margin-bottom:30px;}
+#genres{display:block; clear:both; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/genres-bg.png) no-repeat; width:666px; height:179px; overflow:hidden; padding:15px 20px; margin-bottom:30px;}
 #genres table {width:666px; border-collapse:collapse;}
 #genres table tr td{border:2px solid #B9090B; text-align:center; color:#FFF; font-size:14px; line-height:32px; padding:5px;}
 #genres table tr td a{color:#003a85; text-decoration:none;}
@@ -381,7 +381,7 @@ text-decoration: none;
 BROWSE
 =======================================*/
 #browse-box{display:block; position:relative;}
-#browse-box #browse{width:942px; height:735px; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-bg.jpg) no-repeat; margin:0 auto; padding:12px 0 13px 0;}
+#browse-box #browse{width:942px; height:735px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-bg.jpg) no-repeat; margin:0 auto; padding:12px 0 13px 0;}
 
 #browse-box .options{color:#003a85; font-size:11px; text-indent:18px; padding:10px 0;clear:both;}
 #browse-box .options p{line-height:12px; padding:0; color:#003a85;}
@@ -392,14 +392,14 @@ BROWSE
 #browse-box .options p.sort a.current:hover{ text-decoration:none; cursor:default;}
 #browse-box .options a{display:inline-block; height:12px; color:#003a85; margin-right:5px; text-indent:-90px; overflow:hidden; text-decoration:none;}
 #browse-box .options a:hover{ text-decoration:none;}
-#browse-box .options a.first{width:10px; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-arrows.png) no-repeat; margin-left:10px; }
-#browse-box .options a.first.inactive{background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-arrows.png) no-repeat -28px top; }
-#browse-box .options a.prv{width:8px; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-arrows.png) no-repeat -15px top; }
-#browse-box .options a.prv.inactive{background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-arrows.png) no-repeat -43px top; }
-#browse-box .options a.nxt{width:8px; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-arrows.png) no-repeat -84px top; }
-#browse-box .options a.nxt.inactive{background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-arrows.png) no-repeat -56px top; }
-#browse-box .options a.last{width:10px; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-arrows.png) no-repeat -97px top; }
-#browse-box .options a.last.inactive{background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/browse-arrows.png) no-repeat -69px top; }
+#browse-box .options a.first{width:10px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat; margin-left:10px; }
+#browse-box .options a.first.inactive{background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -28px top; }
+#browse-box .options a.prv{width:8px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -15px top; }
+#browse-box .options a.prv.inactive{background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -43px top; }
+#browse-box .options a.nxt{width:8px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -84px top; }
+#browse-box .options a.nxt.inactive{background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -56px top; }
+#browse-box .options a.last{width:10px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -97px top; }
+#browse-box .options a.last.inactive{background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -69px top; }
 
 #browse ul li h3{position:relative; text-align:center; vertical-align:top; height:44px; width:112px; font-size:11px; font-weight:normal; line-height:14px; padding:0;}
 .slide ul li h3 a, #browse ul li h3 a {position:absolute;bottom:4px; z-index:1; left:0px; right:0px;}
@@ -408,7 +408,7 @@ BROWSE
 #browse ul li img{border:1px solid #666; margin-bottom:7px; height:150px; width:110px;}
 #browse ul li a{color:#003a85; text-decoration:none;}
 #browse ul li a:hover{text-decoration:underline;}
-#browse ul li a.bt{display:block; text-align:center; background:url(https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
+#browse ul li a.bt{display:block; text-align:center; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/btns.png) no-repeat -110px top; width:104px; height:27px; margin:0 auto; line-height:25px; font-size:14px; color:#FFF;}
 #browse ul li a.bt:hover{text-decoration:none;}
 .ajax-loader {display:none; 
     background: none repeat scroll 0 0 rgba(255, 255, 255, 0.5);
@@ -438,7 +438,7 @@ BROWSE
 	z-index:10000;
 	width:337px;
 	font-size:11px;
-	background:url('https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/md-box-top.png') no-repeat 0px 0px;
+	background:url('https://nuborn2001.github.io/flix/next%20gen%20images/md-box-top.png') no-repeat 0px 0px;
 }
 .HoverLeft {
 	padding-right:32px;
@@ -458,17 +458,17 @@ BROWSE
 	}
 	.HoverLeft .DHArrow {
 		right:0px;
-		background-image:url('https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/md-arrow-right.png');
+		background-image:url('https://nuborn2001.github.io/flix/next%20gen%20images/md-arrow-right.png');
 	}
 	.HoverRight .DHArrow {
 		left:0px;
-		background-image:url('http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/md-arrow-left.png');
+		background-image:url('https://nuborn2001.github.io/flix/next%20gen%20images/md-arrow-left.png');
 	}
 	.DHInner {
 		position:absolute;
 		width:337px;
 		top:22px;
-		background:url('http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/md-box-bottom.png') no-repeat 0 bottom;
+		background:url('https://nuborn2001.github.io/flix/next%20gen%20images/md-box-bottom.png') no-repeat 0 bottom;
 	}
 		.DHGradTop {
 			position:absolute;
@@ -476,7 +476,7 @@ BROWSE
 			height:51px;
 			top:-7px;
 			left:15px;
-			background:url('http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/md-gradient-top.png') no-repeat 0 0;
+			background:url('https://nuborn2001.github.io/flix/next%20gen%20images/md-gradient-top.png') no-repeat 0 0;
 		}
 		.DHGradBottom {
 			width:307px;
@@ -484,7 +484,7 @@ BROWSE
 			position:absolute;
 			bottom:15px;
 			left:15px;
-			background:url('http://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/md-gradient-bottom.png') no-repeat 0 0;
+			background:url('https://nuborn2001.github.io/flix/next%20gen%20images/md-gradient-bottom.png') no-repeat 0 0;
 		}
 		.DHContent {
 			position:relative;
