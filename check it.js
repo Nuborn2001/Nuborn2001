@@ -4,7 +4,7 @@
 sts_bs("",[20080623,"images/","","blank.gif",5,1,1,1,"100%","center",1,2,155,125,1,100,0,0,0,5000,1,40,2,"stEffect(\"scroll(Rate=24,enabled=0,Duration=0.50)\")",-2,60],["none",1,"#fb9124","transparent","","repeat"]);
 sts_til([0,"We Must Never Forget!!!!","center"],["bold 11pt Verdana,Arial","#B9090B","none","transparent","","repeat"]);
 sts_pag(["transparent","7pt Verdana,Arial","#B9090B","none","transparent","7pt Verdana,Arial","#B9090B","none","#B9090B","7pt Verdana,Arial","#FFFFFF","none","#FF6600","7pt Verdana,Arial","#FFFFFF","none"]);
-sts_sca(["center","middle","center","middle"],["https://dl.dropboxusercontent.com/u/12447336/tha%20nu/images/hot_fire.gif","https://dl.dropboxusercontent.com/u/12447336/tha%20nu/images/hot_fire.gif","arrowl_gray.gif",34,33,"https://dl.dropboxusercontent.com/u/12447336/tha%20nu/images/hot_fire.gif","https://dl.dropboxusercontent.com/u/12447336/tha%20nu/images/hot_fire.gif","arrowr_gray.gif",34,33]);
+sts_sca(["center","middle","center","middle"],["https://nuborn2001.github.io/flix/hot_fire.gif","https://nuborn2001.github.io/flix/hot_fire.gif","arrowl_gray.gif",34,33,"https://nuborn2001.github.io/flix/hot_fire.gif","https://nuborn2001.github.io/flix/hot_fire.gif","arrowr_gray.gif",34,33]);
 
 
 
