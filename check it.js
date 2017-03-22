@@ -22,14 +22,14 @@ sts_ai("i10",[,"Police Murder Handcuffed Chavis Carter In Back Of Patrol Car","h
 sts_ai("i11",[,"RAW VIDEO: Tamir Rice(12 Years Old With a BB gun shot in 2 secs by police) police shooting surveillance video","https://www.youtube.com/watch?v=Xz_oPE_oUp4",target="top","https://i.ytimg.com/vi_webp/DQUJWZNJnSc/mqdefault.webp"],[],"i0","i0");
 
 
-sts_ai("i12",[,"Justice 4 Alan Blueford","https://www.youtube.com/watch?v=Mr25YhiFvN8",target="top","https://dl.dropboxusercontent.com/u/12447336/tha%20nu/alanblueford_opdvictim.png"],[],"i0","i0");
+sts_ai("i12",[,"Justice 4 Alan Blueford","https://www.youtube.com/watch?v=Mr25YhiFvN8",target="top","https://nuborn2001.github.io/flix/ALAN-BLUEFORD.jpg"],[],"i0","i0");
 
 
 
-sts_ai("i13",[,"No Charges for Cops who Taser Teen(Victor Steen after stopping him for a traffic violation he committed while riding his bike), Run Over â˜  Kill Him (MURDER)","https://www.youtube.com/watch?v=Mr25YhiFvN8",target="top","https://i.ytimg.com/vi/Z_WOpuKtAwo/mqdefault.jpg"],[],"i0","i0");
+sts_ai("i13",[,"No Charges for Cops who Taser Teen(Victor Steen after stopping him for a traffic violation he committed while riding his bike), Run Over and Kills Him (MURDER)","https://www.youtube.com/watch?v=Mr25YhiFvN8",target="top","https://i.ytimg.com/vi/Z_WOpuKtAwo/mqdefault.jpg"],[],"i0","i0");
 
 
-sts_ai("i14",[,"Kendrick Johnson's body was found in a rolled up wrestling mat in the gymnasium of Lowndes High School, Valdosta, Georgia, USA,","https://www.youtube.com/watch?v=IyqDHsJqWwk",target="top","https://dl.dropboxusercontent.com/u/12447336/tha%20nu/Kendrick Johnson .jpg"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
+sts_ai("i14",[,"Kendrick Johnson's body was found in a rolled up wrestling mat in the gymnasium of Lowndes High School, Valdosta, Georgia, USA,","https://www.youtube.com/watch?v=IyqDHsJqWwk",target="top","https://nuborn2001.github.io/flix/kendrick-johnson.jpg"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
 
 
 
