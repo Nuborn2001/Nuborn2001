@@ -1,5 +1,5 @@
 #lbOverlay { position: fixed; top: 0; left: 0; z-index: 99997; width: 100%; height: 100%; }
-	#lbOverlay.black { background: url('https://dl.dropboxusercontent.com/u/12447336/back-top/Netflix_API2_512.jpg') center repeat;; }
+	#lbOverlay.black { background: url('https://nuborn2001.github.io/flix/Netflix_API2_512.jpg') center repeat;; }
 	#lbOverlay.grey { background-color: #000000; }
 	#lbOverlay.red { background-color: #330000; }
 	#lbOverlay.green { background-color: #003300; }
@@ -44,7 +44,7 @@
 	height: 100%; width: 100%; margin-top: -10px;
 	background: url('images/loading_white.gif') center no-repeat;
 }
-#lbLoading.black { background: url('http://dl.dropboxusercontent.com/u/12447336/tha%20nu/images/nficon%20%281%29.ico') center repeat; }
+#lbLoading.black { background: url('https://nuborn2001.github.io/flix/nficon%20(1).ico') center repeat; }
 
 #lbHoverNav { position: absolute; top: 0; left: 0; height: 100%; width: 100%; z-index: 10; }
 #lbImageContainer>#lbHoverNav { left: 0; }
@@ -117,7 +117,7 @@
 #lbTitleTop, #lbTitleBottom { display: block; font-weight: bold; }
 
 #lbClose, #lbCloseTop { width: 26px; height: 28px; float: right; margin: 0 0 1px 8px; }
-	#lbClose.black, #lbCloseTop.black { background: url('https://dl.dropboxusercontent.com/u/12447336/tha%20nu/delete.png') no-repeat; }
+	#lbClose.black, #lbCloseTop.black { background: url('https://nuborn2001.github.io/flix/delete.png') no-repeat; }
 	#lbClose.grey, #lbCloseTop.grey { background: url('images/close_grey.png') no-repeat; }
 	#lbClose.red, #lbCloseTop.red { background: url('images/close_red.png') no-repeat; }
 	#lbClose.green, #lbCloseTop.green { background: url('images/close_green.png') no-repeat; }
