@@ -8,7 +8,7 @@ sts_sca(["center","middle","center","middle"],["https://nuborn2001.github.io/fli
 
 
 
-sts_ai("i0",[0,"The Book-July","https://dl.dropboxusercontent.com/u/12447336/tha%20nu/tracebook july.html",target="top","https://dl.dropboxusercontent.com/u/12447336/tha%20nu/NuSheild_2.jpg",155,125,"center"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"]);
+sts_ai("i0",[0," Police Killing of Rekia Boyd ","https://www.youtube.com/watch?v=t03v8tP4ZLI",target="top","https://nuborn2001.github.io/flix/rekia.png",155,125,"center"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"]);
 sts_ai("i1",[,"Trayvon Martin:A Senseless Killing","https://www.youtube.com/watch?v=ETx5OLtXDZ0",target="top","https://i.ytimg.com/vi/ETx5OLtXDZ0/mqdefault.jpg"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
 sts_ai("i2",[,"Footage of Oscar Grant getting shot in the back by police","https://www.youtube.com/watch?v=5h-IEg8c6uI",target="top","https://i.ytimg.com/vi/46IQfVIAl8Y/mqdefault.jpg"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
 sts_ai("i3",[,"7 yr old Aiyana Jones killed in detroit by Police, Video of shooting, trial, funeral","https://www.youtube.com/watch?v=zjh_FevzUNQ",target="top","https://i.ytimg.com/vi_webp/zjh_FevzUNQ/mqdefault.webp"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
