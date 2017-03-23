@@ -70,7 +70,7 @@ sts_ai("i19",[,"I Am Troy Davis State  SANCTIONED Murder Never Forget!!!!!!!","h
 
 
 
-sts_ai("i19",[,"Save Our Kids (8/8/15): Christian Taylor, a 19-year old college football player was gunned down by police early Friday morning in Arlington, TX. Christian crashed his vehicle into a car dealership.  ","http://crimeblog.dallasnews.com/2015/08/arlington-police-officer-fatally-shot-a-man-early-friday-at-car-dealership.html/",target="top","http://41.media.tumblr.com/c71513b59237bb4ea553d616b08bd7bb/tumblr_nsqihf6NCO1qaf2nxo5_500.png"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
+sts_ai("i19",[,"Save Our Kids (8/8/15): Christian Taylor, a 19-year old college football player was gunned down by police early Friday morning in Arlington, TX. Christian crashed his vehicle into a car dealership.  ","https://www.youtube.com/watch?v=BAH-51NObRQ",target="top","https://nuborn2001.github.io/flix/ct.jpg"],["transparent","9pt Cooper Black","#B9090B","none","10pt Cooper Black","#B9090B","none"],"i0","i0");
 
 
 
