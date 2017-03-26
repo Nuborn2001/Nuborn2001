@@ -45,7 +45,7 @@ ul#nav {height:39px; width:1008px; padding-left:72px; float:left; z-index:9999; 
 ul#nav li {float:left; position:relative; padding-right:3px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/navdivider.png) no-repeat top right;}
 ul#nav li a {text-align:center; color:#FFF; text-decoration:none; line-height:39px; display:block; height:28px; line-height:39px; font-size:15px; /*added for ie6*/float:left; text-transform:capitalize; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x;}
 ul#nav li a img{ display:inline-block; width:150px; vertical-align:middle; padding-left:5px;}
-ul#nav li ul {position:absolute; top:39px; left:0px; z-index:500; margin:0; width:150px; padding:0; background: url(https://nuborn2001.github.io/flix/next%20gen%20images/subnav-bg.png) repeat; display:none;}
+ul#nav li ul {position:absolute; top:39px; left:0px; z-index:500; margin:0; width:150px; padding:0; background: url(https://nuborn2001.github.io/flix/lb.jpg) repeat; display:none;}
 ul#nav li ul.genres{width:660px;z-index:3;}
 ul#nav li:hover ul {display:block;}
 ul#nav li ul li {float:none; padding:0; background-image:none; border:none;}
