@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="ISO-8859-1" ?>
 <rss version="2.0" xmlns:media="http://search.yahoo.com/mrss/">
-
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
 
 
 
@@ -31,7 +31,7 @@
 	<item>
 
 <title><![CDATA["Follow me on Twitter "]]></title>
-      <link>Follow me on Twitter </link>
+      <link>https://nuborn2001.github.io/flix/index </link>
       <description><![CDATA[<a href="https://twitter.com/myfatalshots"target=\"_blank\"><img src="https://pbs.twimg.com/profile_images/617008745537753088/boHPCovq_400x400.jpg" height='80' width='80'></a> <span class="blueName"></span> ]]></description>
       <pubDate>Sun, 5 Jul 2015 12:19:40 -0600</pubDate>
     </item>
@@ -60,6 +60,6 @@
 	
 		
 
-
+<atom:link href="https://nuborn2001.github.io/flix/nuborn2001.rss" rel="self" type="application/rss+xml" />
 </channel>
 </rss>
