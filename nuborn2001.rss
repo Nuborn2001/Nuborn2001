@@ -1,64 +1,25 @@
-<?xml version="1.0" encoding="utf-8" ?>
-
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-
-
-
-<channel>
-<title>Watch Now</title>
-<link>http://dl.dropbox.com/u/12447336/tha%20nu/index.html</link>
-<description>Nuborn2001</description>
-<language>en-us</language>
-<copyright>Nuborn2001.com</copyright>
-
-
-
-
-
-<guid>
-
-<title><![CDATA["Nuworld Girls"]]></title>
-      <link>https://dl.dropboxusercontent.com/u/12447336/tha%20nu/nugirl_2.pdf</link>
-      <description><![CDATA[<a href="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/nugirl_2.pdf"target=\"_blank\"><img src="https://dl.dropboxusercontent.com/u/12447336/tha%20nu/tumblr_mhuwuwMMhT1r1j7s7o1_500.gif" height='80' width='80'></a> <span class="blueName"></span>Share Your Links and Thoughts.]]></description>
-      <pubDate>Sun, 5 Jul 2015 12:19:40 -0600</pubDate>
-    </guid>
-
-		
-	
-	
-	
-	
-	<guid>
-
-<title><![CDATA["Follow me on Twitter "]]></title>
-      <link>https://nuborn2001.github.io/flix/index </link>
-      <description><![CDATA[<a href="https://twitter.com/myfatalshots"target=\"_blank\"><img src="https://pbs.twimg.com/profile_images/617008745537753088/boHPCovq_400x400.jpg" height='80' width='80'></a> <span class="blueName"></span> ]]></description>
-      <pubDate>Sun, 5 Jul 2015 12:19:40 -0600</pubDate>
-    </guid>
-	
-	
-	
-	
-	
-	
-	
-
-	
-	
-	
-	
-
-	
-
-	
-	
-	
-		
-	
-		
-	
-	
-		
-
-<atom:link href="https://nuborn2001.github.io/flix/nuborn2001.rss" rel="self" type="application/rss+xml" />
-
+<feed xmlns="http://www.w3.org/2005/Atom"
+      xml:base="http://www.example.org/">
+  <id>http://www.example.org/pictures</id>
+  <title>My Picture Gallery</title>
+  <updated>2005-07-15T12:00:00Z</updated>
+  <author>
+    <name>James M Snell</name>
+  </author>
+  <entry>
+     <id>http://www.example.org/entries/1</id>
+     <title>Trip to San Francisco</title>
+     <link href="/entries/1" />
+     <updated>2005-07-15T12:00:00Z</updated>
+     <summary>A picture of my hotel room in San Francisco</summary>
+     <content type="image/png" src="/mypng1.png" />
+  </entry>
+  <entry>
+    <id>http://www.example.org/entries/2</id>
+    <title>My new car</title>
+    <link href="/entries/2" />
+    <updated>2005-07-15T12:00:00Z</updated>
+    <summary>A picture of my new car</summary>
+    <content type="image/png" src="/mypng2.png" />
+  </entry>
+</feed>
