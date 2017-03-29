@@ -20,74 +20,7 @@
 	<script type="text/javascript" src="https://nuborn2001.github.io/flix/jquery.mb.extruder.2.3/inc/mbExtruder.js"></script>
 	<script type="text/javascript">var switchTo5x=true;</script>
 <script type="text/javascript">stLight.options({publisher: "139ba3e6-38fe-4cd8-a582-cfbfd45043ca", doNotHash: false, doNotCopy: false, hashAddressBar: true});</script>
-	<script type="text/javascript">
-		$(function(){
-			//setTimeout(function(){
-				if (self.location.href == top.location.href){
-					$("body").css({font:"normal 13px/16px 'trebuchet MS', verdana, sans-serif"});
-					var logo=$("<a href='http://nuborn2001.com'></a>").css({position:"absolute"});
-					$("body").prepend(logo);
-					$("#logo").fadeIn();
-				}
-					$("#extruderTop").buildMbExtruder({
-						positionFixed:false,
-						position:"top",
-						width:1150,
-						extruderOpacity:10,
-						autoCloseTime:0,
-						autoOpenTime:1000,
-						hidePanelsOnClose:false,
-						onExtOpen:function(){},
-						onExtContentLoad:function(){},
-						onExtClose:function(){}
-					});
-					$("#extruderBottom").buildMbExtruder({
-						positionFixed:true,
-						position:"bottom",
-						width:950,
-						extruderOpacity:1,
-						onExtOpen:function(){},
-						onExtContentLoad:function(){},
-						onExtClose:function(){}
-					});
-					$("#extruderLeft").buildMbExtruder({
-						position:"left",
-						width:1000,
-						extruderOpacity:.8,
-						positionFixed:false,
-						hidePanelsOnClose:false,
-						accordionPanels:true,
-						onExtOpen:function(){},
-						onExtContentLoad:function(){$("#extruderLeft").openPanel();},
-						onExtClose:function(){}
-					});
-					$("#extruderLeft2").buildMbExtruder({
-						position:"left",
-						width:300,
-						positionFixed:false,
-						top:0,
-						extruderOpacity:.8,
-						onExtOpen:function(){},
-						onExtContentLoad:function(){},
-						onExtClose:function(){}
-					});
-					$("#extruderRight").buildMbExtruder({
-						position:"right",
-						width:500,
-						extruderOpacity:.8,
-						textOrientation:"tb",
-						onExtOpen:function(){},
-						onExtContentLoad:function(){},
-						onExtClose:function(){}
-					});
-				$.fn.changeLabel=function(text){
-					$(this).find(".flapLabel").html(text);
-					$(this).find(".flapLabel").mbFlipText();
-				}
-			//},1000);
-		});
-	</script>
-   
+	
 
 <link rel="stylesheet" type="text/css" href="https://nuborn2001.github.io/flix/ddimgtooltip.css" />
 
@@ -102,7 +35,7 @@
 
 
     
-    <meta name="description" content="Watch free movies online at nuborn2001.com  Watch full length feature films, month, years before Netflix gets them, streaming online at nuborn2001.com">
+    <meta name="description" content="Watch free movies online at nuborn2001.info  Watch full length feature films, month, years before Netflix gets them, streaming online at nuborn2001.com">
 
 
     
@@ -124,13 +57,19 @@
 </div>
 		<div id="wrapper"><!--wrapper:begin-->
 			<div id="header"><!--header:begin-->
-				<a href="http://www.facebook.com/notifications" target="_ blank">
-                    <ul class="tabbed" id="network-tabs">
-                        <div class="fbJewelFlyout toggleTargetClosed" id="fbNotificationsFlyout"><div class="uiHeader uiHeaderBottomBorder jewelHeader"><div class="clearfix uiHeaderTop"><div><h3 class="uiHeaderTitle"title="Facebook Notifications" ></h3></div></div></div><ul class="jewelItemList jewelHighlight" id="fbNotificationsList" data-gt="{&quot;ref&quot;:&quot;notif_jewel&quot;}"><li id="fbNotificationsList_loading_indicator"><img class="jewelLoading img" src="https://nuborn2001.github.io/flix/logo_96.png" alt="Facebook Notifications" width="190" height="32"></li></ul><div class="jewelFooter"><a class="seeMore" href="http://www.facebook.com/notifications/"><span></span></a>
+				<a class="logo" href="/web/20130130205711/http://popcornflix.com/">PopcornFlix</a>
 				<b style="padding-top: 26px; display: block; font-size: 20px"></b>
-			</div>	
+				<div class="form">
+					<input name="ctl00$txtSearch" type="text" id="ctl00_txtSearch" title="Movie Title, Actors, Directors">
+    					<input type="submit" name="ctl00$bntSearch" value="&nbsp;" id="ctl00_bntSearch" class="bt">
+				</div>
 			</div>
-			</div>
+			
+			
+			<div class="form">
+					<input name="ctl00$txtSearch" type="text" id="ctl00_txtSearch" title="Movie Title, Actors, Directors">
+    					<input type="submit" name="ctl00$bntSearch" value="&nbsp;" id="ctl00_bntSearch" class="bt">
+				</div>
 			<!--header:end-->
 
 			<div id="menu-container"><!--Start MENU CONTAINER -->
