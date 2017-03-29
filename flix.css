@@ -29,7 +29,8 @@ body{background: #e1e1e1;}
 a:hover{text-decoration:none;}
 
 /*===HEADER===*/
-#header{display:block; width:1080px; height:70px; background:#B9090B; clear:both; padding:0 0px 0 0px; position:relative;}
+#header{display:block; width:925px; height:70px; background:#B9090B; clear:both; padding:0 25px 0 30px; position:relative;}
+
 #header a.logo{ display:block; width:382px; height:60px; color:#FFF; text-indent:-9999px; float:left; background:url(https://nuborn2001.github.io/flix/nu2017vid%20logo.png) no-repeat}
 #header a.about{float:right; font-size:11px; color:#003a85; margin-top:10px; margin-right:50px;}
 #header a.about.current{color:#F00; text-decoration:none;}
