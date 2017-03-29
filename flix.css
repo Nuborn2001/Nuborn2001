@@ -35,8 +35,8 @@ a:hover{text-decoration:none;}
 #header a.about.current{color:#F00; text-decoration:none;}
 #header a.about.current:hover{text-decoration:underline;}
 #header .form{position:absolute;right:25px;bottom:10px;}
-#header input{width:206px; padding-left:10px; padding-right:10px; height:19px; background:url(img/searchinput.png) no-repeat; border:none; vertical-align:top; font-size:11px; color:#999; padding-top:6px;}
-#header input.bt{border:none; background:url(https://nuborn2001.github.io/flix/searchinput.png) no-repeat; width:102px; height:25px; cursor:pointer; display:inline-block; margin-left:10px;}
+#header input{width:206px; padding-left:10px; padding-right:10px; height:19px; background:url(https://nuborn2001.github.io/flix/img/searchinput.png) no-repeat; border:none; vertical-align:top; font-size:11px; color:#999; padding-top:6px;}
+#header input.bt{border:none; background:url(https://nuborn2001.github.io/flix/sbtns.png) no-repeat; width:102px; height:25px; cursor:pointer; display:inline-block; margin-left:10px;}
 
 /*==NAVIGATION CSS==*/
 #menu-container{height:39px; width:1080px; font-size:12px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x; display:block;}
