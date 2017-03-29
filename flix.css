@@ -30,7 +30,7 @@ a:hover{text-decoration:none;}
 
 /*===HEADER===*/
 #header{display:block; width:1025px; height:30px; background:#B9090B; clear:both; padding:0 25px 0 30px; position:relative;}
-#header a.logo{ display:block; width:382px; height:0px; color:#FFF; text-indent:-9999px; float:left; background:url(https://nuborn2001.github.io/flix/nu2017vid%20logo.png) no-repeat}
+#header a.logo{ display:block; width:382px; height:70px; color:#FFF; text-indent:-9999px; float:left; background:url(https://nuborn2001.github.io/flix/nu2017vid%20logo.png) no-repeat}
 #header a.about{float:right; font-size:11px; color:#003a85; margin-top:10px; margin-right:50px;}
 #header a.about.current{color:#F00; text-decoration:none;}
 #header a.about.current:hover{text-decoration:underline;}
