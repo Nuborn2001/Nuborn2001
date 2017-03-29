@@ -96,7 +96,7 @@ HOMEPAGE
 #slider-box a.next{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -160px top; margin-right:25px;}
 #slider-box a.prev{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -131px top; margin-left:25px;}
 .pager{height:28px; text-align:center; display:block; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/pager-bg.png) repeat-x; *padding-left:40px;}
-.pager a {background: url(https://nuborn2001.github.io/flix/next%20gen%20images/pageritem.png) no-repeat center; width:20px; height:28px; line-height:28px; text-align:center; text-decoration:none; margin:0 0 0 3px; display:inline-block; color:#FFF; font-size:11px; font-weight:bold; overflow:hidden; text-indent:-40px;}
+.pager a {background: url(https://nuborn2001.github.io/flix/next%20gen%20images/pageritem-current.png) no-repeat center; width:20px; height:28px; line-height:28px; text-align:center; text-decoration:none; margin:0 0 0 3px; display:inline-block; color:#FFF; font-size:11px; font-weight:bold; overflow:hidden; text-indent:-40px;}
 .pager a.activeSlide {background: url(https://nuborn2001.github.io/flix/next%20gen%20images/pageritem-current.png) no-repeat left 4px;}
 .pager a:focus {outline: none; }
 
