@@ -25,19 +25,7 @@ var ddimgtooltip={
 		tooltips[000]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMjE0ODk2NjczOV5BMl5BanBnXkFtZTYwNDQ0NDg4._V1._SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
 		tooltips[15]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMTQ1NzE3MzY0NV5BMl5BanBnXkFtZTYwNTM2MzE5._V1._SY317_CR6%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
 		tooltips[16]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA%40%40._V1._SY317_CR0%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[17]=["https://dl.dropboxusercontent.com/u/12447336/MV5BMTQ4MjY2MjMzOV5BMl5BanBnXkFtZTcwMDUxNzIwOQ%40%40._V1._CR43%2C43.16667175292969%2C1298%2C1960.9999542236328_SX214_.jpg", "After R (a highly unusual zombie) saves Julie from an attack, the two form a relationship that sets in motion a sequence of events that might transform the entire lifeless world.", {background:"#ebeef4", width:"214px"}]
-		tooltips[18]=["https://dl.dropboxusercontent.com/u/12447336/MV5BMTkxMTE3NzEzMl5BMl5BanBnXkFtZTcwMzc4MTU2Mw%40%40._V1_SX214_.jpg", "A writer who is brutalized during her cabin retreat seeks revenge on her attackers, who left her for dead.", {background:"#ebeef4", width:"214px"}]
-		tooltips[19]=["https://dl.dropboxusercontent.com/u/12447336/MV5BMjEyNjI1OTEzOV5BMl5BanBnXkFtZTcwNTI3NzYxOQ%40%40._V1._CR33%2C35.16667175292969%2C1411%2C1979.9999542236328_SY317_CR7%2C0%2C214%2C317_.jpg", "Wren's Halloween plans go awry when she's made to babysit her brother, who disappears into a sea of trick-or-treaters. With her best friend and two nerds at her side, she needs to find her brother before her mom finds out he's missing.", {background:"#ebeef4", width:"214px"}]
-		tooltips[20]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMTM0MDgwNjMyMl5BMl5BanBnXkFtZTcwNTg3NzAzMw%40%40._V1._SY317_.jpg", "A snobbish investor and a wily street con artist find their positions reversed as part of a bet by two callous millionaires.", {background:"#FFFFFF", width:"90px"}]
-		tooltips[21]=["http://dl.dropbox.com/u/12447336/tha%20nu/socialstream/images/Chronicle-watch-movie-1213915.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[22]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt1735898.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[23]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMjAxODQ1MTEyMl5BMl5BanBnXkFtZTcwNjU3NzM0OA%40%40._V1_SY317_CR0%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[24]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt1231583.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[25]=["https://dl.dropboxusercontent.com/u/12447336/MV5BMTczNDk4NTQ0OV5BMl5BanBnXkFtZTcwNDAxMDgxNw%40%40._V1_SX214_.jpg", "Journalist Mikael Blomkvist is aided in his search for a woman who has been missing for forty years by Lisbeth Salander, a young computer hacker.", {background:"#ebeef4", width:"214px"}]
-		tooltips[26]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt1506999.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[27]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMTc0NjIyMjA2OF5BMl5BanBnXkFtZTcwMzIxNDE1MQ%40%40._V1._SY317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
 
-	
 	
 	
 	
