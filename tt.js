@@ -13,7 +13,7 @@ var ddimgtooltip={
 		//For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
-		tooltips[0]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMjEzNDQ0MzM0N15BMl5BanBnXkFtZTcwMzA1NDM1Nw%40%40._V1_SX214_.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998"}]
+		tooltips[0]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998", width:"400px"}]
 		tooltips[1]=["https://a.disquscdn.com/uploads/mediaembed/images/2385/2957/original.jpg", "", {background:"#FFFFFF", width:"400px"}]
 		tooltips[2]=["https://www.wattpad.com/338132183-the-immortal-articles-discipline"]
 		tooltips[3]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMjI0MDQyMTU1OF5BMl5BanBnXkFtZTcwODc5Njg3Nw%40%40._V1_SY317_CR0%2C0%2C214%2C317_.jpg", {background:"white", font:"bold 12px Arial"}]
