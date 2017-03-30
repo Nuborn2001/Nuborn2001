@@ -91,7 +91,7 @@ HOMEPAGE
 /*===SLIDER===*/
 #slider-box{display:block; clear:both; background: #000 ; width:1080px; height:360px; overflow:hidden;}
 #slider-box #slider{width:900px; margin:0 auto;}
-#slider-box #slider a {width:890px;height:360px;}
+#slider-box #slider a {width:990px;height:360px;}
 #slider-box a.next, #slider-box a.prev{display:block;  width:28px; height:48px; text-indent:-100px; overflow:hidden; cursor:pointer; margin-top:147px;}
 #slider-box a.next{float:right; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -160px top; margin-right:25px;}
 #slider-box a.prev{float:left; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/slider-arrows.png) no-repeat -131px top; margin-left:25px;}
