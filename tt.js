@@ -292,7 +292,7 @@ tooltips[257]=["https://dl.dropbox.com/u/12447336/tha%20nu/next%20gen%20images/M
 	
 	tooltips[006]=["https://dl.dropboxusercontent.com/u/12447336/tumblr_o4ystt8XNo1rehptdo1_1280-214x350.jpg", "Black Women are Perfect.", {background:"#ebeef4", width:"214px"}]
 	
-	tooltips[007]=["https://a.disquscdn.com/uploads/mediaembed/images/2385/2957/original.jpg", "You Cant Judge Her!!!", {background:"#ebeef4", width:"400px"}]
+	tooltips[007]=["https://a.disquscdn.com/uploads/mediaembed/images/2385/2957/original.jpg", "You Cant Judge Her!!!", {background:"#ebeef4", width:"200px"}]
 	
 	tooltips[008]=["https://dl.dropboxusercontent.com/u/12447336/tha%20nu/cake.jpg", "Want 2 Taste it!!!.", {background:"#ebeef4", width:"314px"}]
 	
