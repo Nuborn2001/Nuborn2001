@@ -14,7 +14,7 @@ var ddimgtooltip={
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
 		tooltips[0]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMjEzNDQ0MzM0N15BMl5BanBnXkFtZTcwMzA1NDM1Nw%40%40._V1_SX214_.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998"}]
-		tooltips[1]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMjEzNDQ0MzM0N15BMl5BanBnXkFtZTcwMzA1NDM1Nw%40%40._V1_SX214_.jpg", "", {background:"#FFFFFF", width:"200px"}]
+		tooltips[1]=["https://a.disquscdn.com/uploads/mediaembed/images/2385/2957/original.jpg", "", {background:"#FFFFFF", width:"400px"}]
 		tooltips[2]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMzg4MTExNzA2MF5BMl5BanBnXkFtZTcwMTU4NDY3OA%40%40._V1_SY317_CR3%2C0%2C214%2C317_.jpg"]
 		tooltips[3]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMjI0MDQyMTU1OF5BMl5BanBnXkFtZTcwODc5Njg3Nw%40%40._V1_SY317_CR0%2C0%2C214%2C317_.jpg", {background:"white", font:"bold 12px Arial"}]
         tooltips[6]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMTAyOTc4OTg2MzJeQTJeQWpwZ15BbWU3MDk0NzgyNzg%40._V1_SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998"}]
