@@ -13,10 +13,10 @@ var ddimgtooltip={
 		//For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
-		tooltips[0]=["https://a.disquscdn.com/uploads/mediaembed/images/2275/1571/original.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998", width:"310px"}]
-		tooltips[1]=["https://a.disquscdn.com/uploads/mediaembed/images/2385/2957/original.jpg", "", {background:"#FFFFFF", width:"400px"}]
+		tooltips[0]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998", width:"310px"}]
+		tooltips[1]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", "", {background:"#FFFFFF", width:"400px"}]
 		tooltips[2]=["https://www.wattpad.com/338132183-the-immortal-articles-discipline"]
-		tooltips[3]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMjI0MDQyMTU1OF5BMl5BanBnXkFtZTcwODc5Njg3Nw%40%40._V1_SY317_CR0%2C0%2C214%2C317_.jpg", {background:"white", font:"bold 12px Arial"}]
+		tooltips[3]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", {background:"white", font:"bold 12px Arial"}]
         tooltips[6]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMTAyOTc4OTg2MzJeQTJeQWpwZ15BbWU3MDk0NzgyNzg%40._V1_SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998"}]
 		tooltips[10]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt0905372.jpg", "", {background:"#FFFFFF", width:"90px"}]
 		tooltips[11]=["http://dl.dropbox.com/u/12447336/tha%20nu/socialstream/images/cover-1231417-Good-Deeds-movie2k-film.jpg", "", {background:"#FFFFFF", width:"90px"}]
