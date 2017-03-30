@@ -15,16 +15,17 @@ var ddimgtooltip={
 
 		tooltips[0]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998", width:"310px"}]
 		tooltips[1]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", "", {background:"#FFFFFF", width:"400px"}]
-		tooltips[2]=["https://www.wattpad.com/338132183-the-immortal-articles-discipline"]
+		tooltips[2]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", "", {background:"#FFFFFF", width:"400px"}]
+
 		tooltips[3]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", {background:"white", font:"bold 12px Arial"}]
-        tooltips[6]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMTAyOTc4OTg2MzJeQTJeQWpwZ15BbWU3MDk0NzgyNzg%40._V1_SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998"}]
-		tooltips[10]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt0905372.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[11]=["http://dl.dropbox.com/u/12447336/tha%20nu/socialstream/images/cover-1231417-Good-Deeds-movie2k-film.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[12]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt1499658.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[13]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/url.gif", "", {background:"#FFFFFF", width:"0px"}]
-		tooltips[000]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMjE0ODk2NjczOV5BMl5BanBnXkFtZTYwNDQ0NDg4._V1._SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[15]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMTQ1NzE3MzY0NV5BMl5BanBnXkFtZTYwNTM2MzE5._V1._SY317_CR6%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
-		tooltips[16]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA%40%40._V1._SY317_CR0%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
+        tooltips[4]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMTAyOTc4OTg2MzJeQTJeQWpwZ15BbWU3MDk0NzgyNzg%40._V1_SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998"}]
+		tooltips[5]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt0905372.jpg", "", {background:"#FFFFFF", width:"90px"}]
+		tooltips[6]=["http://dl.dropbox.com/u/12447336/tha%20nu/socialstream/images/cover-1231417-Good-Deeds-movie2k-film.jpg", "", {background:"#FFFFFF", width:"90px"}]
+		tooltips[7]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt1499658.jpg", "", {background:"#FFFFFF", width:"90px"}]
+		tooltips[8]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/url.gif", "", {background:"#FFFFFF", width:"0px"}]
+		tooltips[9]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMjE0ODk2NjczOV5BMl5BanBnXkFtZTYwNDQ0NDg4._V1._SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
+		tooltips[10]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMTQ1NzE3MzY0NV5BMl5BanBnXkFtZTYwNTM2MzE5._V1._SY317_CR6%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
+		tooltips[11]=["http://dl.dropbox.com/u/12447336/tha%20nu/gallery/MV5BMTYyOTAxMDA0OF5BMl5BanBnXkFtZTcwNzgwNTc1NA%40%40._V1._SY317_CR0%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", width:"90px"}]
 
 	
 	
