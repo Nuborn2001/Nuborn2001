@@ -89,7 +89,7 @@ ul#nav li ul.genres table tr td a.current{color:#CA3338;}
 HOMEPAGE
 =======================================*/
 /*===SLIDER===*/
-#slider-box{display:block; clear:both; background: #000 ; width:1080px; height:360px; overflow:hidden;}
+#slider-box{display:block; clear:both; background: #000 ; width:1080px; height:345px; overflow:hidden;}
 #slider-box #slider{width:900px; margin:0 auto;}
 #slider-box #slider a {width:990px;height:360px;}
 #slider-box a.next, #slider-box a.prev{display:block;  width:28px; height:48px; text-indent:-100px; overflow:hidden; cursor:pointer; margin-top:147px;}
