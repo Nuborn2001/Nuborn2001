@@ -40,11 +40,11 @@ a:hover{text-decoration:none;}
 #header input.bt{border:none; background:url(https://nuborn2001.github.io/flix/sbtns.png) no-repeat; width:102px; height:25px; cursor:pointer; display:inline-block; margin-left:10px;}
 
 /*==NAVIGATION CSS==*/
-#menu-container{height:39px; width:1080px; font-size:12px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x; display:block;}
+#menu-container{height:39px; width:980px; font-size:12px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x; display:block;}
 /*---NAV---*/
 ul#nav {height:39px; width:1008px; padding-left:72px; float:left; z-index:9999; position:absolute; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/navdivider.png) no-repeat 69px top;}
 ul#nav li {float:left; position:relative; padding-right:3px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/navdivider.png) no-repeat top right;}
-ul#nav li a {text-align:center; color:#000; text-decoration:none; line-height:39px; display:block; height:28px; line-height:39px; font-size:15px; /*added for ie6*/float:left; text-transform:capitalize; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x;}
+ul#nav li a {text-align:center; color:#fff; text-decoration:none; line-height:39px; display:block; height:28px; line-height:39px; font-size:15px; /*added for ie6*/float:left; text-transform:capitalize; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x;}
 ul#nav li a img{ display:inline-block; width:155px; vertical-align:middle; padding-left:5px;}
 ul#nav li ul {position:absolute; top:39px; left:0px; z-index:500; margin:0; width:150px; padding:0; background: url(https://nuborn2001.github.io/flix/lb.jpg) repeat; display:none;}
 ul#nav li ul.genres{width:860px;z-index:3;}
