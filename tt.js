@@ -13,11 +13,11 @@ var ddimgtooltip={
 		//For desc parameter, backslash any special characters inside your text such as apotrophes ('). Example: "I\'m the king of the world"
 		//For CSS object, follow the syntax: {property1:"cssvalue1", property2:"cssvalue2", etc}
 
-		tooltips[0]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998", width:"310px"}]
-		tooltips[1]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", "", {background:"#FFFFFF", width:"400px"}]
+		tooltips[0]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998", width:"310px"}]
+		tooltips[1]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", "", {background:"#FFFFFF", width:"400px"}]
 		tooltips[2]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", "", {background:"#FFFFFF", width:"400px"}]
 
-		tooltips[3]=["https://omgphat.com//king-include/uploads/thumb_3496139757.jpg", {background:"white", font:"bold 12px Arial"}]
+		tooltips[3]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", {background:"white", font:"bold 12px Arial"}]
         tooltips[4]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMTAyOTc4OTg2MzJeQTJeQWpwZ15BbWU3MDk0NzgyNzg%40._V1_SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998"}]
 		tooltips[5]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt0905372.jpg", "", {background:"#FFFFFF", width:"90px"}]
 		tooltips[6]=["http://dl.dropbox.com/u/12447336/tha%20nu/socialstream/images/cover-1231417-Good-Deeds-movie2k-film.jpg", "", {background:"#FFFFFF", width:"90px"}]
