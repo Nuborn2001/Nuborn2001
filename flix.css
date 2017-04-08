@@ -621,3 +621,52 @@ BROWSE
     -webkit-transition: border-color .2s ease;
     transition: border-color .2s ease;
 }
+.exp-scrollable-guide #appbar-guide-menu:hover {
+    overflow-y: auto;
+}
+	
+	
+.exp-scrollable-guide #appbar-guide-menu {
+    overflow: hidden;
+}	
+	
+	
+	
+	
+	#appbar-guide-menu, .guide-flyout {
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background: #fff;
+    z-index: 1999999999;
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
