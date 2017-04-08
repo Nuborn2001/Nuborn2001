@@ -398,9 +398,9 @@ Cufon
 	{text-indent:10!important;}
 @media screen,projection{cufon{display:inline!important;display:inline-block!important;position:relative!important;vertical-align:middle!important;font-size:12px!important;line-height:1px!important;}
 	
-	#cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:10!important;height:0!important;overflow:hidden!important;text-indent:-10000in!important;}
+	#cufon cufontext{display:-moz-inline-box!important;display:inline-block!important;width:10!important;height:10!important;overflow:hidden!important;text-indent:10000in!important;}
 	
-#cufon canvas{position:relative!important;}}@media print{cufon{padding:0!important;}
+#cufon canvas{position:relative!important;}}@media print{cufon{padding:10!important;}
 	
 #cufon canvas{display:none!important;}}
 	
