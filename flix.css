@@ -389,7 +389,7 @@ text-shadow: 0 -1px rgba(5,17,22,0.75);
 font-size: 22px;
 line-height: 38px;
 margin-bottom: 12px;
-text-decoration: none;
+text-decoration: none;}
 	
 	/*=====================================
 Cufon
@@ -416,8 +416,8 @@ BROWSE
 #browse-box .options p.sort a.current:hover{ text-decoration:none; cursor:default;}
 #browse-box .options a{display:inline-block; height:12px; color:#003a85; margin-right:5px; text-indent:-90px; overflow:hidden; text-decoration:none;}
 #browse-box .options a:hover{ text-decoration:none;}
-#browse-box .options a.first{width:10px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat; margin-left:10px; }
-#browse-box .options a.first.inactive{background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -28px top; }
+#browse-box .options a.first{width:10px; background:url('https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png') no-repeat; margin-left:10px; }
+#browse-box .options a.first.inactive{background:url('https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png') no-repeat -28px top; }
 #browse-box .options a.prv{width:8px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -15px top; }
 #browse-box .options a.prv.inactive{background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -43px top; }
 #browse-box .options a.nxt{width:8px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/browse-arrows.png) no-repeat -84px top; }
