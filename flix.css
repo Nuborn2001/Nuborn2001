@@ -53,7 +53,7 @@ a:hover{text-decoration:none;}
 /*---NAV---*/
 ul#nav {height:39px; width:1008px; padding-left:72px; float:left; z-index:9999; position:absolute; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/navdivider.png) no-repeat 69px top;}
 ul#nav li {float:left; position:relative; padding-right:3px; background:url(https://nuborn2001.github.io/flix/next%20gen%20images/navdivider.png) no-repeat top right;}
-ul#nav li a {text-align:center; color:#fff; text-decoration:none; line-height:39px; display:block; height:25px; line-height:39px; font-size:15px; /*added for ie6*/float:left; text-transform:capitalize; background:url(https://nuborn2001.github.io/flix/hot_fire.gif) repeat-x;}
+ul#nav li a {text-align:center; color:#fff; text-decoration:none; line-height:39px; display:block; height:25px; line-height:39px; font-size:15px; /*added for ie6*/float:left; text-transform:capitalize; background:url() repeat-x;}
 ul#nav li a img{ display:inline-block; width:155px; vertical-align:middle; padding-left:5px;}
 ul#nav li ul {position:absolute; top:39px; left:0px; z-index:500; margin:0; width:150px; padding:0; background: url(https://nuborn2001.github.io/flix/lb.jpg) repeat; display:none;}
 ul#nav li ul.genres{width:860px;z-index:3;}
@@ -61,7 +61,7 @@ ul#nav li:hover ul {display:block;}
 ul#nav li ul li {float:none; padding:0; background-image:none; border:none;}
 ul#nav li ul li a {text-align:center; line-height:20px !important; min-height:20px; height:auto !important; height:20px; padding:0 10px; background-image:none; /*added for ie6*/float:none;}
 /*---TOP LI---*/
-ul#nav li a{ width:auto; padding:12px 28px 0;}
+ul#nav li a{ width:auto; padding:1px 38px 0;}
 /*---TOP LI A:hover & TOP LI:hover A & TOP LI A.current---*/
 ul#nav li:hover a, ul#nav li a.current, ul#nav li a.ie6hover{background:url() repeat-x left -41px; color:#FFF;}
 /*---UL LI:hover UL LI A---*/
