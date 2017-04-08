@@ -61,7 +61,7 @@ ul#nav li:hover ul {display:block;}
 ul#nav li ul li {float:none; padding:0; background-image:none; border:none;}
 ul#nav li ul li a {text-align:center; line-height:20px !important; min-height:20px; height:auto !important; height:20px; padding:0 10px; background-image:none; /*added for ie6*/float:none;}
 /*---TOP LI---*/
-ul#nav li a{ width:auto; padding:1px 38px 0;}
+ul#nav li a{ width:auto; padding:5px 38px 10;}
 /*---TOP LI A:hover & TOP LI:hover A & TOP LI A.current---*/
 ul#nav li:hover a, ul#nav li a.current, ul#nav li a.ie6hover{background:url() repeat-x left -41px; color:#FFF;}
 /*---UL LI:hover UL LI A---*/
