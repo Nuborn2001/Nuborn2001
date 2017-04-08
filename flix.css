@@ -35,7 +35,7 @@ a:hover{text-decoration:none;}
 #header a.about{float:right; font-size:11px; color:#003a85; margin-top:10px; margin-right:50px;}
 #header a.about.current{color:#F00; text-decoration:none;}
 #header a.about.current:hover{text-decoration:underline;}
-#header .form{position:absolute;right:25px;bottom:10px;}
+#header .form{position:absolute;left:300px;bottom:10px;}
 #header input{width:206px; padding-left:10px; padding-right:10px; height:25px; background:url(https://nuborn2001.github.io/flix/searchinput.png) no-repeat; border:none; vertical-align:top; font-size:11px; color:#999; padding-top:6px;}
 #header input.bt{border:none; background:url(https://nuborn2001.github.io/flix/sbtns.png) no-repeat; width:102px; height:25px; cursor:pointer; display:inline-block; margin-left:10px;}
 
