@@ -31,6 +31,15 @@ a:hover{text-decoration:none;}
 /*===HEADER===*/
 #header{display:block; width:1025px; height:45px; background-color: #B9090B;; clear:both; padding:0 25px 0 30px; position:relative;}
 
+
+
+#headerb{display:block; width:1025px; height:45px; background-color: #e1e1e1;; clear:both; padding:0 25px 0 30px; position:relative;}
+
+
+
+
+
+
 #header a.logo{ display:block; width:1050px; height:70px; color:#FFF; text-indent:-9999px; ;  background:url() repeat}
 #header a.about{float:right; font-size:11px; color:#003a85; margin-top:10px; margin-right:50px;}
 #header a.about.current{color:#F00; text-decoration:none;}
