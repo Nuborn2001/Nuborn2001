@@ -63,7 +63,7 @@ ul#nav li ul li a {text-align:center; line-height:20px !important; min-height:20
 /*---TOP LI---*/
 ul#nav li a{ width:auto; padding:12px 28px 0;}
 /*---TOP LI A:hover & TOP LI:hover A & TOP LI A.current---*/
-ul#nav li:hover a, ul#nav li a.current, ul#nav li a.ie6hover{background:url(https://nuborn2001.github.io/flix/next%20gen%20images/nav-bg.png) repeat-x left -41px; color:#FFF;}
+ul#nav li:hover a, ul#nav li a.current, ul#nav li a.ie6hover{background:url() repeat-x left -41px; color:#FFF;}
 /*---UL LI:hover UL LI A---*/
 ul#nav li:hover ul li a{background-image:none; padding-bottom:2px; color:#FFF;}
 /*---UL LI UL LI A:hover---*/
