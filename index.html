@@ -999,10 +999,19 @@ Stars: Kimberly Elise, Omar Epps, Danny Glover, D.C. Young Fly, Mo'Nique , Gabri
 	
 	<h3>	5th Database
 	
-	<form action="https://fmovies.io/search.html"target="_ blank">
-          <input type="text" name="keyword" placeholder="Enter keywords here" class="ui-autocomplete-input" autocomplete="off" size="76"><input type="submit" name="ctl00$bntSearch" value="&nbsp;" id="ctl00_bntSearch" class="bt">
-          <button type="submit"><i class="fa fa-search"></i></button>
-        </form>
+	 <form action="http://potlocker.me/search.php" target="_blank" method="get" id="search" name="search" onsubmit="return validateSearch('true');">
+       
+        <div class="controls">
+          <div class="input-append">
+            <input class="input-medium inp-small" id="appendedInputButton" size="26" name="keywords" type="text" placeholder="Search" x-webkit-speech="x-webkit-speech" onwebkitspeechchange="this.form.submit();"><input type="submit" name="ctl00$bntSearch" value="&nbsp;" id="ctl00_bntSearch" class="bt">
+          </div> </div> </div>
+          <div class="suggestionsBox" id="suggestions" style="display: none;">
+              <div class="suggestionList input-xlarge" id="autoSuggestionsList">
+              </div>
+          </div>
+       
+
+
 	</h3>
 
 	
