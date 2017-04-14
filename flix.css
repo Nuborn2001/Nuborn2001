@@ -46,10 +46,10 @@ a:hover{text-decoration:none;}
 #header a.about.current:hover{text-decoration:underline;}
 
 
-#header b.log{ display:block; width:48px; height:48px; color:#FFF; text-indent:-9999px; ;  background:url(https://nuborn2001.github.io/flix/nuphoto.jpg)no-repeat}
-#header b.about{float:left; font-size:11px; color:#003a85; margin-top:10px; margin-right:50px;}
-#header b.about.current{color:#F00; text-decoration:none;}
-#header b.about.current:hover{text-decoration:underline;}
+#header a.log{ display:block; width:48px; height:48px; color:#FFF; text-indent:-9999px; ;  background:url(https://nuborn2001.github.io/flix/nuphoto.jpg)no-repeat}
+#header a.about{float:left; font-size:11px; color:#003a85; margin-top:10px; margin-right:50px;}
+#header a.about.current{color:#F00; text-decoration:none;}
+#header a.about.current:hover{text-decoration:underline;}
 
 
 #header .form{position:absolute;left:300px;bottom:3px;}
