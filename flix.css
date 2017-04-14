@@ -47,7 +47,7 @@ a:hover{text-decoration:none;}
 
 
 #header a.log{ display:block; width:48px; height:48px; float: right;color:#FFF; text-indent:-9999px; ;  background:url(https://nuborn2001.github.io/flix/nuphoto.jpg)no-repeat}
-#header a.about{position:absolute;left font-size:11px; color:#003a85; margin-top:10px; margin-left:50px;}
+#header a.about{position:absolute;right; font-size:11px; color:#003a85; margin-top:10px; margin-left:50px;}
 #header a.about.current{color:#F00; text-decoration:none;}
 #header a.about.current:hover{text-decoration:underline;}
 
