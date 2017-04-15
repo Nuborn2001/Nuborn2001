@@ -669,7 +669,15 @@ BROWSE
 	
 	
 	
-	
+browse-button {
+    width: 142px;
+    height: 142px;
+    border: 8px solid #7dd1f9;
+    border-radius: 50%;
+    position: relative;
+    left: 50%;
+    margin-left: -71px;
+}	
 	
 	
 	
