@@ -701,7 +701,7 @@ browse-button {
 
 
 	.browse-button .button-cloud1 {
-    background-image: url(../img/button-cloud1.png);
+    background-image: url(https://openload.co/assets/img/button-cloud1.png);
     background-repeat: no-repeat;
     width: 83px;
     height: 32px;
@@ -716,7 +716,7 @@ browse-button {
 	
 
 .browse-button .upload-cloud {
-    background-image: url(../img/upload-cloud.png);
+    background-image: url(https://openload.co/assets/img/upload-cloud.png);
     background-repeat: no-repeat;
     width: 72px;
     height: 48px;
@@ -729,7 +729,7 @@ browse-button {
 
 
 .browse-button .button-cloud2 {
-    background-image: url(../img/button-cloud2.png);
+    background-image: url(https://openload.co/assets/img/button-cloud2.png);
     background-repeat: no-repeat;
     width: 72px;
     height: 25px;
@@ -745,7 +745,7 @@ browse-button {
 
 
 .browse-button .cloud2 {
-    background-image: url(../img/cloud2.png);
+    background-image: url(https://openload.co/assets/img/cloud2.png);
     background-repeat: no-repeat;
     width: 55px;
     height: 22px;
