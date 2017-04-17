@@ -100,7 +100,7 @@ margin-bottom: 2px;
 margin-left:1px;
 margin-right:1px;
 text-align:left;
-background:url(https://nuborn2001.github.io/flix/Templates/cat11.png) top left no-repeat;
+background:url(https://nuborn2001.github.io/flix/cat11.png) top left no-repeat;
 float: left;}
 
 img.thumb{
@@ -200,7 +200,7 @@ margin-right: 3px;
 margin-left:3px; 
 margin-bottom: 2px; 
 text-align:left;
-background:url(/images/cat.png);
+background:url(cat.png);
 float: left;}
 
 
@@ -264,7 +264,7 @@ margin-right: 1px;
 margin-left:1px; 
 margin-bottom: 1px; 
 text-align:left;
-background:url(https://nuborn2001.github.io/flix/Templates/cat11.png);
+background:url(https://nuborn2001.github.io/flix/cat11.png);
 float: left;}
 
 /*ul.videocats li:hover {background:url(/images/cata.png);}*/
@@ -470,7 +470,7 @@ font-size: 13px;}
 
 .my { margin: 5px auto; width: 1006px; }
 .my a {
-    background: url("lupe.png") no-repeat scroll 0 0 transparent;
+    background: url("https://nuborn2001.github.io/flix/lupe.png") no-repeat scroll 0 0 transparent;
     display: block;
     float: left;
     margin-left: 12px;
