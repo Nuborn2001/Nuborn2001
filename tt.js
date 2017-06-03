@@ -17,7 +17,7 @@ var ddimgtooltip={
 		tooltips[1]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", "", {background:"#FFFFFF", width:"400px"}]
 		tooltips[2]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", "", {background:"#FFFFFF", width:"400px"}]
 
-		tooltips[3]=["https://a.wattpad.com/cover/91184447-256-k563150.jpg", {background:"white", font:"bold 12px Arial"}]
+		tooltips[3]=["https://nuborn2001.github.io/flix/59194144098f7.mp4_splash.jpg", "", {background:"#FFFFFF", width:"400px"}]
         tooltips[4]=["https://dl.dropbox.com/u/12447336/tha%20nu/3d/index%20more/image/MV5BMTAyOTc4OTg2MzJeQTJeQWpwZ15BbWU3MDk0NzgyNzg%40._V1_SY317_CR4%2C0%2C214%2C317_.jpg", "", {background:"#FFFFFF", color:"black", border:"5px #3B5998"}]
 		tooltips[5]=["https://dl.dropbox.com/u/12447336/tha%20nu/socialstream/tt0905372.jpg", "", {background:"#FFFFFF", width:"90px"}]
 		tooltips[6]=["http://dl.dropbox.com/u/12447336/tha%20nu/socialstream/images/cover-1231417-Good-Deeds-movie2k-film.jpg", "", {background:"#FFFFFF", width:"90px"}]
